@@ -5,7 +5,7 @@
 ## Login   <TiphaineLaurent@epitech.net>
 ## 
 ## Started on  Tue Apr 25 15:14:05 2017 Tiphaine LAURENT
-## Last update Sat May 27 02:17:51 2017 Tiphaine LAURENT
+## Last update Sat May 27 04:17:47 2017 Tiphaine LAURENT
 ##
 
 CC		=	gcc
@@ -53,7 +53,14 @@ SRCS		=	my_isdigit.c		\
 			my_realloc.c		\
 			my_str_to_wordtab.c	\
 			get_next_line.c		\
-			my_strcatdup.c
+			my_strcatdup.c		\
+			my_strrchr.c		\
+			my_strchrnul.c		\
+			my_strcasecmp.c		\
+			my_strncasecmp.c	\
+			my_strcspn.c		\
+			my_strfry.c		\
+			my_strpbrk.c
 
 OBJS		=	$(SRCS:.c=.o)
 

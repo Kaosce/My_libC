@@ -5,7 +5,7 @@
 ** Login   <TiphaineLaurent@epitech.net>
 ** 
 ** Started on  Tue Apr 25 16:11:13 2017 Tiphaine LAURENT
-** Last update Sat May 27 02:11:27 2017 Tiphaine LAURENT
+** Last update Sat May 27 04:32:26 2017 Tiphaine LAURENT
 */
 
 #ifndef MY_H_
@@ -45,6 +45,8 @@ int		my_put_wordtab(char **wordtab, char delim);
 ** String Modification
 */
 char		*my_strchr(char *str, char c);
+char		*my_strrchr(char *str, char c);
+char		*my_strchrnul(char *str, char c);
 char		*my_epure_str(char *str, char to_epure);
 char		*my_revstr(char *str);
 char		*my_strcat(char *dest, char *src);
@@ -54,6 +56,9 @@ char		*my_strdup(char *str);
 char		*my_strcatdup(char *dest, char *src);
 char		*my_strstr(char *str, const char *to_find);
 char		**my_str_to_wordtab(const char *str, char limit);
+size_t		my_strcspn(const char *str, const char *reject);
+char		*my_strfry(char *str);
+char		*my_strpbrk(const char *str, const char *accept);
 
 /*
 ** Memory
@@ -71,7 +76,9 @@ bool		my_isneg(const int nb);
 bool		my_isprime(int nb);
 bool		my_str_isdigit(const char *str);
 bool		my_strcmp(const char *str1, const char *str2);
+bool		my_strcasecmp(const char *str1, const char *str2);
 bool		my_strncmp(const char *str1, const char *str2, size_t n);
+bool		my_strncasecmp(const char *str1, const char *str2, size_t n);
 
 /*
 ** Maths

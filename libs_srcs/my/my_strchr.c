@@ -5,7 +5,7 @@
 ** Login   <TiphaineLaurent@epitech.net>
 ** 
 ** Started on  Sat Apr 29 22:53:26 2017 Tiphaine LAURENT
-** Last update Sun Apr 30 01:49:40 2017 Tiphaine LAURENT
+** Last update Sat May 27 02:53:56 2017 Tiphaine LAURENT
 */
 
 #include "my.h"
@@ -20,8 +20,8 @@ char		*my_strchr(char *str, char c)
   while(str[len] != '\0')
     {
       if (str[len] == c)
-	return (my_strdup(&str[len]));
+	return (&str[len]);
       len += 1;
     }
-  return (str);
+  return (NULL);
 }
