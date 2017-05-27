@@ -5,7 +5,7 @@
 ** Login   <TiphaineLaurent@epitech.net>
 ** 
 ** Started on  Tue Apr 25 23:17:24 2017 Tiphaine LAURENT
-** Last update Mon May  8 05:06:22 2017 Tiphaine LAURENT
+** Last update Sat May 27 02:32:44 2017 Tiphaine LAURENT
 */
 
 #include "my.h"
@@ -39,6 +39,7 @@ char		*my_strcat(char *dest, char *src)
   len_src = my_strlen(src);
   if ((ret = malloc(sizeof(char *) * (len_src + 1))) == NULL)
     return (NULL);
+  ret[0] = '\0';
   ret = cat(ret, dest);
   ret = cat(ret, src);
   return (ret);

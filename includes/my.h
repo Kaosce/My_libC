@@ -5,7 +5,7 @@
 ** Login   <TiphaineLaurent@epitech.net>
 ** 
 ** Started on  Tue Apr 25 16:11:13 2017 Tiphaine LAURENT
-** Last update Sat May 13 19:38:32 2017 Tiphaine LAURENT
+** Last update Sat May 27 02:11:27 2017 Tiphaine LAURENT
 */
 
 #ifndef MY_H_
@@ -51,6 +51,7 @@ char		*my_strcat(char *dest, char *src);
 char		*my_strcpy(char *dest, char *src);
 char		*my_strncpy(char *src, char *dest, const size_t n);
 char		*my_strdup(char *str);
+char		*my_strcatdup(char *dest, char *src);
 char		*my_strstr(char *str, const char *to_find);
 char		**my_str_to_wordtab(const char *str, char limit);
 
