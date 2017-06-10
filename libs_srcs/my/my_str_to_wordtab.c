@@ -72,7 +72,8 @@ char		**my_str_to_wordtab(const char *str, char limit)
 
   if (str == NULL)
     return (NULL);
-  if ((wordtab = malloc(sizeof(char **) * (count_word(str, limit) + 1))) == NULL)
+  if ((wordtab = malloc(sizeof(char **) *
+			(count_word(str, limit) + 1))) == NULL)
     return (NULL);
   len = 0;
   words = 0;
