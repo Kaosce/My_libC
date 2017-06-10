@@ -13,13 +13,15 @@
 void		*my_memcpy(void *dest, const void *src, size_t n)
 {
   size_t	len;
-  char		*csrc = (char *)src;
-  char		*cdest = (char *)dest;
+  char		*csrc;
+  char		*cdest;
 
   if (dest == NULL || src == NULL)
     return (NULL);
   if (dest == src)
     return (NULL);
+  csrc = (char *)src;
+  cdest =  = (char *)dest;
   len = 0;
   while (csrc[len] && len <= n)
     {
