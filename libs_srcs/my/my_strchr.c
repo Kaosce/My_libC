@@ -17,7 +17,7 @@ char		*my_strchr(char *str, char c)
   if (str == NULL)
     return (NULL);
   len = 0;
-  while(str[len] != '\0')
+  while (str[len] != '\0')
     {
       if (str[len] == c)
 	return (&str[len]);
