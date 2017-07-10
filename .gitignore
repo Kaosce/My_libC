@@ -1,0 +1,6 @@
+#Ignored Files
+
+*.o
+*~
+*#*#
+main.c

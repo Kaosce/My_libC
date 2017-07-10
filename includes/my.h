@@ -5,7 +5,7 @@
 ** Login   <TiphaineLaurent@epitech.net>
 ** 
 ** Started on  Tue Apr 25 16:11:13 2017 Tiphaine LAURENT
-** Last update Sat May 27 04:32:26 2017 Tiphaine LAURENT
+** Last update Mon Jul 10 15:45:43 2017 Tiphaine
 */
 
 #ifndef MY_H_
@@ -17,11 +17,17 @@
 # include <stdint.h>
 # include <stdbool.h>
 
-# define	END	0
-# define	ALLOC	1
-# define	OPEN	2
-# define	READ	3
-# define	WRITE	4
+# define EOF	'\0'
+# define RETURN	'\n'
+
+typedef enum	e_ret
+  {
+    END,
+    ALLOC,
+    OPEN,
+    READ,
+    WRITE
+  }		t_ret;
 
 typedef struct
 {
@@ -53,6 +59,7 @@ char		*my_strcat(char *dest, char *src);
 char		*my_strcpy(char *dest, char *src);
 char		*my_strncpy(char *src, char *dest, const size_t n);
 char		*my_strdup(char *str);
+char		*my_strndup(const char *str, size_t n);
 char		*my_strcatdup(char *dest, char *src);
 char		*my_strstr(char *str, const char *to_find);
 char		**my_str_to_wordtab(const char *str, char limit);
