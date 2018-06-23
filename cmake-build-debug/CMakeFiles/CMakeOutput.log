@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f314a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f314a.dir/build.make CMakeFiles/cmTC_f314a.dir/build
-make[1]: Entering directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f314a.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f314a.dir/testCCompiler.c.o   -c /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_f314a
-/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f314a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_f314a.dir/testCCompiler.c.o  -o cmTC_f314a 
-make[1]: Leaving directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bf11c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf11c.dir/build.make CMakeFiles/cmTC_bf11c.dir/build
+make[1]: Entering directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf11c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf11c.dir/testCCompiler.c.o   -c /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bf11c
+/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf11c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bf11c.dir/testCCompiler.c.o  -o cmTC_bf11c 
+make[1]: Leaving directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c06af/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c06af.dir/build.make CMakeFiles/cmTC_c06af.dir/build
-make[1]: Entering directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o   -c /snap/clion/25/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_c06af
-/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c06af.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o  -o cmTC_c06af 
+Run Build Command:"/usr/bin/make" "cmTC_db2e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db2e9.dir/build.make CMakeFiles/cmTC_db2e9.dir/build
+make[1]: Entering directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o   -c /snap/clion/25/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_db2e9
+/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db2e9.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o  -o cmTC_db2e9 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -46,23 +46,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c06af' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgxsyUM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c06af /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db2e9' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccC2apgW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_db2e9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c06af/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c06af.dir/build.make CMakeFiles/cmTC_c06af.dir/build]
-  ignore line: [make[1]: Entering directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o   -c /snap/clion/25/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_c06af]
-  ignore line: [/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c06af.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o  -o cmTC_c06af ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_db2e9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_db2e9.dir/build.make CMakeFiles/cmTC_db2e9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o   -c /snap/clion/25/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_db2e9]
+  ignore line: [/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db2e9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o  -o cmTC_db2e9 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -72,13 +72,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c06af' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgxsyUM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c06af /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db2e9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccC2apgW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_db2e9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgxsyUM.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccC2apgW.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -95,7 +95,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c06af] ==> ignore
+    arg [cmTC_db2e9] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_c06af.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_db2e9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -135,17 +135,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ccfdc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ccfdc.dir/build.make CMakeFiles/cmTC_ccfdc.dir/build
-make[1]: Entering directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ccfdc.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ccfdc.dir/feature_tests.c.o   -c /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ccfdc
-/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfdc.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_ccfdc.dir/feature_tests.c.o  -o cmTC_ccfdc 
-make[1]: Leaving directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_28c53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28c53.dir/build.make CMakeFiles/cmTC_28c53.dir/build
+make[1]: Entering directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28c53.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_28c53.dir/feature_tests.c.o   -c /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_28c53
+/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28c53.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_28c53.dir/feature_tests.c.o  -o cmTC_28c53 
+make[1]: Leaving directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -155,17 +155,17 @@ make[1]: Leaving directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bb363/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bb363.dir/build.make CMakeFiles/cmTC_bb363.dir/build
-make[1]: Entering directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bb363.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_bb363.dir/feature_tests.c.o   -c /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bb363
-/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb363.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_bb363.dir/feature_tests.c.o  -o cmTC_bb363 
-make[1]: Leaving directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3a46d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a46d.dir/build.make CMakeFiles/cmTC_3a46d.dir/build
+make[1]: Entering directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a46d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_3a46d.dir/feature_tests.c.o   -c /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3a46d
+/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a46d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3a46d.dir/feature_tests.c.o  -o cmTC_3a46d 
+make[1]: Leaving directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -175,17 +175,17 @@ make[1]: Leaving directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_17606/fast"
-/usr/bin/make -f CMakeFiles/cmTC_17606.dir/build.make CMakeFiles/cmTC_17606.dir/build
-make[1]: Entering directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_17606.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_17606.dir/feature_tests.c.o   -c /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_17606
-/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17606.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_17606.dir/feature_tests.c.o  -o cmTC_17606 
-make[1]: Leaving directory '/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8f95e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f95e.dir/build.make CMakeFiles/cmTC_8f95e.dir/build
+make[1]: Entering directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f95e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_8f95e.dir/feature_tests.c.o   -c /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8f95e
+/snap/clion/25/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f95e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8f95e.dir/feature_tests.c.o  -o cmTC_8f95e 
+make[1]: Leaving directory '/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes

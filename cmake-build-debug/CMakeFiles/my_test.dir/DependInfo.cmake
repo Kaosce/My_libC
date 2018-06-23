@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/tiphaine/CLionProjects/libC/test.c" "/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/my_test.dir/test.c.o"
+  "/home/tiphaine/GitHub/my_libC/test.c" "/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/my_test.dir/test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/libC.dir/DependInfo.cmake"
+  "/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/libC.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

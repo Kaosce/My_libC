@@ -38,8 +38,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/libC.dir/ctype/isspace.c.o"
   "CMakeFiles/libC.dir/ctype/isupper.c.o"
   "CMakeFiles/libC.dir/ctype/isxdigit.c.o"
-  "liblibC.pdb"
-  "liblibC.so"
+  "../lib/liblibC.pdb"
+  "../lib/liblibC.so"
 )
 
 # Per-language clean rules from dependency scanning.

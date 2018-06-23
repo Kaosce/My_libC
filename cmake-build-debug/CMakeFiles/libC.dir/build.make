@@ -43,10 +43,10 @@ RM = /snap/clion/25/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tiphaine/CLionProjects/libC
+CMAKE_SOURCE_DIR = /home/tiphaine/GitHub/my_libC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tiphaine/CLionProjects/libC/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tiphaine/GitHub/my_libC/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/libC.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/libC.dir/flags.make
 
 CMakeFiles/libC.dir/ctype/tolower.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/tolower.c.o: ../ctype/tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libC.dir/ctype/tolower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/tolower.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libC.dir/ctype/tolower.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/tolower.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/tolower.c
 
 CMakeFiles/libC.dir/ctype/tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/tolower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/tolower.c > CMakeFiles/libC.dir/ctype/tolower.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/tolower.c > CMakeFiles/libC.dir/ctype/tolower.c.i
 
 CMakeFiles/libC.dir/ctype/tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/tolower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/tolower.c -o CMakeFiles/libC.dir/ctype/tolower.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/tolower.c -o CMakeFiles/libC.dir/ctype/tolower.c.s
 
 CMakeFiles/libC.dir/ctype/tolower.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/libC.dir/ctype/tolower.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/toupper.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/toupper.c.o: ../ctype/toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libC.dir/ctype/toupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/toupper.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libC.dir/ctype/toupper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/toupper.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/toupper.c
 
 CMakeFiles/libC.dir/ctype/toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/toupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/toupper.c > CMakeFiles/libC.dir/ctype/toupper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/toupper.c > CMakeFiles/libC.dir/ctype/toupper.c.i
 
 CMakeFiles/libC.dir/ctype/toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/toupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/toupper.c -o CMakeFiles/libC.dir/ctype/toupper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/toupper.c -o CMakeFiles/libC.dir/ctype/toupper.c.s
 
 CMakeFiles/libC.dir/ctype/toupper.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/libC.dir/ctype/toupper.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/strings/strcasecmp.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strcasecmp.c.o: ../strings/strcasecmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libC.dir/strings/strcasecmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcasecmp.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strcasecmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libC.dir/strings/strcasecmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcasecmp.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strcasecmp.c
 
 CMakeFiles/libC.dir/strings/strcasecmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strcasecmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strcasecmp.c > CMakeFiles/libC.dir/strings/strcasecmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strcasecmp.c > CMakeFiles/libC.dir/strings/strcasecmp.c.i
 
 CMakeFiles/libC.dir/strings/strcasecmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strcasecmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strcasecmp.c -o CMakeFiles/libC.dir/strings/strcasecmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strcasecmp.c -o CMakeFiles/libC.dir/strings/strcasecmp.c.s
 
 CMakeFiles/libC.dir/strings/strcasecmp.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/libC.dir/strings/strcasecmp.c.o.provides.build: CMakeFiles/libC.dir/s
 
 CMakeFiles/libC.dir/strings/strncasecmp.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strncasecmp.c.o: ../strings/strncasecmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libC.dir/strings/strncasecmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strncasecmp.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strncasecmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libC.dir/strings/strncasecmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strncasecmp.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strncasecmp.c
 
 CMakeFiles/libC.dir/strings/strncasecmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strncasecmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strncasecmp.c > CMakeFiles/libC.dir/strings/strncasecmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strncasecmp.c > CMakeFiles/libC.dir/strings/strncasecmp.c.i
 
 CMakeFiles/libC.dir/strings/strncasecmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strncasecmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strncasecmp.c -o CMakeFiles/libC.dir/strings/strncasecmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strncasecmp.c -o CMakeFiles/libC.dir/strings/strncasecmp.c.s
 
 CMakeFiles/libC.dir/strings/strncasecmp.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/libC.dir/strings/strncasecmp.c.o.provides.build: CMakeFiles/libC.dir/
 
 CMakeFiles/libC.dir/strings/index.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/index.c.o: ../strings/index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libC.dir/strings/index.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/index.c.o   -c /home/tiphaine/CLionProjects/libC/strings/index.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libC.dir/strings/index.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/index.c.o   -c /home/tiphaine/GitHub/my_libC/strings/index.c
 
 CMakeFiles/libC.dir/strings/index.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/index.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/index.c > CMakeFiles/libC.dir/strings/index.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/index.c > CMakeFiles/libC.dir/strings/index.c.i
 
 CMakeFiles/libC.dir/strings/index.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/index.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/index.c -o CMakeFiles/libC.dir/strings/index.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/index.c -o CMakeFiles/libC.dir/strings/index.c.s
 
 CMakeFiles/libC.dir/strings/index.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/libC.dir/strings/index.c.o.provides.build: CMakeFiles/libC.dir/string
 
 CMakeFiles/libC.dir/strings/rindex.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/rindex.c.o: ../strings/rindex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libC.dir/strings/rindex.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/rindex.c.o   -c /home/tiphaine/CLionProjects/libC/strings/rindex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libC.dir/strings/rindex.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/rindex.c.o   -c /home/tiphaine/GitHub/my_libC/strings/rindex.c
 
 CMakeFiles/libC.dir/strings/rindex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/rindex.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/rindex.c > CMakeFiles/libC.dir/strings/rindex.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/rindex.c > CMakeFiles/libC.dir/strings/rindex.c.i
 
 CMakeFiles/libC.dir/strings/rindex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/rindex.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/rindex.c -o CMakeFiles/libC.dir/strings/rindex.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/rindex.c -o CMakeFiles/libC.dir/strings/rindex.c.s
 
 CMakeFiles/libC.dir/strings/rindex.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/libC.dir/strings/rindex.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strcpy.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strcpy.c.o: ../strings/strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libC.dir/strings/strcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcpy.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libC.dir/strings/strcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcpy.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strcpy.c
 
 CMakeFiles/libC.dir/strings/strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strcpy.c > CMakeFiles/libC.dir/strings/strcpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strcpy.c > CMakeFiles/libC.dir/strings/strcpy.c.i
 
 CMakeFiles/libC.dir/strings/strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strcpy.c -o CMakeFiles/libC.dir/strings/strcpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strcpy.c -o CMakeFiles/libC.dir/strings/strcpy.c.s
 
 CMakeFiles/libC.dir/strings/strcpy.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/libC.dir/strings/strcpy.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strncpy.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strncpy.c.o: ../strings/strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libC.dir/strings/strncpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strncpy.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libC.dir/strings/strncpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strncpy.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strncpy.c
 
 CMakeFiles/libC.dir/strings/strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strncpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strncpy.c > CMakeFiles/libC.dir/strings/strncpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strncpy.c > CMakeFiles/libC.dir/strings/strncpy.c.i
 
 CMakeFiles/libC.dir/strings/strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strncpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strncpy.c -o CMakeFiles/libC.dir/strings/strncpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strncpy.c -o CMakeFiles/libC.dir/strings/strncpy.c.s
 
 CMakeFiles/libC.dir/strings/strncpy.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/libC.dir/strings/strncpy.c.o.provides.build: CMakeFiles/libC.dir/stri
 
 CMakeFiles/libC.dir/strings/strcat.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strcat.c.o: ../strings/strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libC.dir/strings/strcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcat.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libC.dir/strings/strcat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcat.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strcat.c
 
 CMakeFiles/libC.dir/strings/strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strcat.c > CMakeFiles/libC.dir/strings/strcat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strcat.c > CMakeFiles/libC.dir/strings/strcat.c.i
 
 CMakeFiles/libC.dir/strings/strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strcat.c -o CMakeFiles/libC.dir/strings/strcat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strcat.c -o CMakeFiles/libC.dir/strings/strcat.c.s
 
 CMakeFiles/libC.dir/strings/strcat.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/libC.dir/strings/strcat.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strncat.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strncat.c.o: ../strings/strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libC.dir/strings/strncat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strncat.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libC.dir/strings/strncat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strncat.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strncat.c
 
 CMakeFiles/libC.dir/strings/strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strncat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strncat.c > CMakeFiles/libC.dir/strings/strncat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strncat.c > CMakeFiles/libC.dir/strings/strncat.c.i
 
 CMakeFiles/libC.dir/strings/strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strncat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strncat.c -o CMakeFiles/libC.dir/strings/strncat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strncat.c -o CMakeFiles/libC.dir/strings/strncat.c.s
 
 CMakeFiles/libC.dir/strings/strncat.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/libC.dir/strings/strncat.c.o.provides.build: CMakeFiles/libC.dir/stri
 
 CMakeFiles/libC.dir/strings/strlen.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strlen.c.o: ../strings/strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libC.dir/strings/strlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strlen.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libC.dir/strings/strlen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strlen.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strlen.c
 
 CMakeFiles/libC.dir/strings/strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strlen.c > CMakeFiles/libC.dir/strings/strlen.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strlen.c > CMakeFiles/libC.dir/strings/strlen.c.i
 
 CMakeFiles/libC.dir/strings/strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strlen.c -o CMakeFiles/libC.dir/strings/strlen.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strlen.c -o CMakeFiles/libC.dir/strings/strlen.c.s
 
 CMakeFiles/libC.dir/strings/strlen.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/libC.dir/strings/strlen.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strchr.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strchr.c.o: ../strings/strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libC.dir/strings/strchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strchr.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libC.dir/strings/strchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strchr.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strchr.c
 
 CMakeFiles/libC.dir/strings/strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strchr.c > CMakeFiles/libC.dir/strings/strchr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strchr.c > CMakeFiles/libC.dir/strings/strchr.c.i
 
 CMakeFiles/libC.dir/strings/strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strchr.c -o CMakeFiles/libC.dir/strings/strchr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strchr.c -o CMakeFiles/libC.dir/strings/strchr.c.s
 
 CMakeFiles/libC.dir/strings/strchr.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/libC.dir/strings/strchr.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strrchr.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strrchr.c.o: ../strings/strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libC.dir/strings/strrchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strrchr.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libC.dir/strings/strrchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strrchr.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strrchr.c
 
 CMakeFiles/libC.dir/strings/strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strrchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strrchr.c > CMakeFiles/libC.dir/strings/strrchr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strrchr.c > CMakeFiles/libC.dir/strings/strrchr.c.i
 
 CMakeFiles/libC.dir/strings/strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strrchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strrchr.c -o CMakeFiles/libC.dir/strings/strrchr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strrchr.c -o CMakeFiles/libC.dir/strings/strrchr.c.s
 
 CMakeFiles/libC.dir/strings/strrchr.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/libC.dir/strings/strrchr.c.o.provides.build: CMakeFiles/libC.dir/stri
 
 CMakeFiles/libC.dir/strings/strchrnul.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strchrnul.c.o: ../strings/strchrnul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libC.dir/strings/strchrnul.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strchrnul.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strchrnul.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libC.dir/strings/strchrnul.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strchrnul.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strchrnul.c
 
 CMakeFiles/libC.dir/strings/strchrnul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strchrnul.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strchrnul.c > CMakeFiles/libC.dir/strings/strchrnul.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strchrnul.c > CMakeFiles/libC.dir/strings/strchrnul.c.i
 
 CMakeFiles/libC.dir/strings/strchrnul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strchrnul.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strchrnul.c -o CMakeFiles/libC.dir/strings/strchrnul.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strchrnul.c -o CMakeFiles/libC.dir/strings/strchrnul.c.s
 
 CMakeFiles/libC.dir/strings/strchrnul.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/libC.dir/strings/strchrnul.c.o.provides.build: CMakeFiles/libC.dir/st
 
 CMakeFiles/libC.dir/strings/strcmp.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strcmp.c.o: ../strings/strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libC.dir/strings/strcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcmp.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libC.dir/strings/strcmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcmp.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strcmp.c
 
 CMakeFiles/libC.dir/strings/strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strcmp.c > CMakeFiles/libC.dir/strings/strcmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strcmp.c > CMakeFiles/libC.dir/strings/strcmp.c.i
 
 CMakeFiles/libC.dir/strings/strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strcmp.c -o CMakeFiles/libC.dir/strings/strcmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strcmp.c -o CMakeFiles/libC.dir/strings/strcmp.c.s
 
 CMakeFiles/libC.dir/strings/strcmp.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/libC.dir/strings/strcmp.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strncmp.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strncmp.c.o: ../strings/strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libC.dir/strings/strncmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strncmp.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libC.dir/strings/strncmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strncmp.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strncmp.c
 
 CMakeFiles/libC.dir/strings/strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strncmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strncmp.c > CMakeFiles/libC.dir/strings/strncmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strncmp.c > CMakeFiles/libC.dir/strings/strncmp.c.i
 
 CMakeFiles/libC.dir/strings/strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strncmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strncmp.c -o CMakeFiles/libC.dir/strings/strncmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strncmp.c -o CMakeFiles/libC.dir/strings/strncmp.c.s
 
 CMakeFiles/libC.dir/strings/strncmp.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/libC.dir/strings/strncmp.c.o.provides.build: CMakeFiles/libC.dir/stri
 
 CMakeFiles/libC.dir/strings/stpcpy.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/stpcpy.c.o: ../strings/stpcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/libC.dir/strings/stpcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/stpcpy.c.o   -c /home/tiphaine/CLionProjects/libC/strings/stpcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/libC.dir/strings/stpcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/stpcpy.c.o   -c /home/tiphaine/GitHub/my_libC/strings/stpcpy.c
 
 CMakeFiles/libC.dir/strings/stpcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/stpcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/stpcpy.c > CMakeFiles/libC.dir/strings/stpcpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/stpcpy.c > CMakeFiles/libC.dir/strings/stpcpy.c.i
 
 CMakeFiles/libC.dir/strings/stpcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/stpcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/stpcpy.c -o CMakeFiles/libC.dir/strings/stpcpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/stpcpy.c -o CMakeFiles/libC.dir/strings/stpcpy.c.s
 
 CMakeFiles/libC.dir/strings/stpcpy.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/libC.dir/strings/stpcpy.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/stpncpy.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/stpncpy.c.o: ../strings/stpncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/libC.dir/strings/stpncpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/stpncpy.c.o   -c /home/tiphaine/CLionProjects/libC/strings/stpncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/libC.dir/strings/stpncpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/stpncpy.c.o   -c /home/tiphaine/GitHub/my_libC/strings/stpncpy.c
 
 CMakeFiles/libC.dir/strings/stpncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/stpncpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/stpncpy.c > CMakeFiles/libC.dir/strings/stpncpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/stpncpy.c > CMakeFiles/libC.dir/strings/stpncpy.c.i
 
 CMakeFiles/libC.dir/strings/stpncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/stpncpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/stpncpy.c -o CMakeFiles/libC.dir/strings/stpncpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/stpncpy.c -o CMakeFiles/libC.dir/strings/stpncpy.c.s
 
 CMakeFiles/libC.dir/strings/stpncpy.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/libC.dir/strings/stpncpy.c.o.provides.build: CMakeFiles/libC.dir/stri
 
 CMakeFiles/libC.dir/strings/strcspn.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strcspn.c.o: ../strings/strcspn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/libC.dir/strings/strcspn.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcspn.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strcspn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/libC.dir/strings/strcspn.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strcspn.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strcspn.c
 
 CMakeFiles/libC.dir/strings/strcspn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strcspn.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strcspn.c > CMakeFiles/libC.dir/strings/strcspn.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strcspn.c > CMakeFiles/libC.dir/strings/strcspn.c.i
 
 CMakeFiles/libC.dir/strings/strcspn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strcspn.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strcspn.c -o CMakeFiles/libC.dir/strings/strcspn.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strcspn.c -o CMakeFiles/libC.dir/strings/strcspn.c.s
 
 CMakeFiles/libC.dir/strings/strcspn.c.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/libC.dir/strings/strcspn.c.o.provides.build: CMakeFiles/libC.dir/stri
 
 CMakeFiles/libC.dir/strings/strspn.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strspn.c.o: ../strings/strspn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/libC.dir/strings/strspn.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strspn.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strspn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/libC.dir/strings/strspn.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strspn.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strspn.c
 
 CMakeFiles/libC.dir/strings/strspn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strspn.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strspn.c > CMakeFiles/libC.dir/strings/strspn.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strspn.c > CMakeFiles/libC.dir/strings/strspn.c.i
 
 CMakeFiles/libC.dir/strings/strspn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strspn.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strspn.c -o CMakeFiles/libC.dir/strings/strspn.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strspn.c -o CMakeFiles/libC.dir/strings/strspn.c.s
 
 CMakeFiles/libC.dir/strings/strspn.c.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/libC.dir/strings/strspn.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strdup.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strdup.c.o: ../strings/strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/libC.dir/strings/strdup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strdup.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/libC.dir/strings/strdup.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strdup.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strdup.c
 
 CMakeFiles/libC.dir/strings/strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strdup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strdup.c > CMakeFiles/libC.dir/strings/strdup.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strdup.c > CMakeFiles/libC.dir/strings/strdup.c.i
 
 CMakeFiles/libC.dir/strings/strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strdup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strdup.c -o CMakeFiles/libC.dir/strings/strdup.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strdup.c -o CMakeFiles/libC.dir/strings/strdup.c.s
 
 CMakeFiles/libC.dir/strings/strdup.c.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/libC.dir/strings/strdup.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strfry.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strfry.c.o: ../strings/strfry.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/libC.dir/strings/strfry.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strfry.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strfry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/libC.dir/strings/strfry.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strfry.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strfry.c
 
 CMakeFiles/libC.dir/strings/strfry.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strfry.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strfry.c > CMakeFiles/libC.dir/strings/strfry.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strfry.c > CMakeFiles/libC.dir/strings/strfry.c.i
 
 CMakeFiles/libC.dir/strings/strfry.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strfry.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strfry.c -o CMakeFiles/libC.dir/strings/strfry.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strfry.c -o CMakeFiles/libC.dir/strings/strfry.c.s
 
 CMakeFiles/libC.dir/strings/strfry.c.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/libC.dir/strings/strfry.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/swap.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/swap.c.o: ../strings/swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/libC.dir/strings/swap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/swap.c.o   -c /home/tiphaine/CLionProjects/libC/strings/swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/libC.dir/strings/swap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/swap.c.o   -c /home/tiphaine/GitHub/my_libC/strings/swap.c
 
 CMakeFiles/libC.dir/strings/swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/swap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/swap.c > CMakeFiles/libC.dir/strings/swap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/swap.c > CMakeFiles/libC.dir/strings/swap.c.i
 
 CMakeFiles/libC.dir/strings/swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/swap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/swap.c -o CMakeFiles/libC.dir/strings/swap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/swap.c -o CMakeFiles/libC.dir/strings/swap.c.s
 
 CMakeFiles/libC.dir/strings/swap.c.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/libC.dir/strings/swap.c.o.provides.build: CMakeFiles/libC.dir/strings
 
 CMakeFiles/libC.dir/strings/strpbrk.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strpbrk.c.o: ../strings/strpbrk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/libC.dir/strings/strpbrk.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strpbrk.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strpbrk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/libC.dir/strings/strpbrk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strpbrk.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strpbrk.c
 
 CMakeFiles/libC.dir/strings/strpbrk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strpbrk.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strpbrk.c > CMakeFiles/libC.dir/strings/strpbrk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strpbrk.c > CMakeFiles/libC.dir/strings/strpbrk.c.i
 
 CMakeFiles/libC.dir/strings/strpbrk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strpbrk.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strpbrk.c -o CMakeFiles/libC.dir/strings/strpbrk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strpbrk.c -o CMakeFiles/libC.dir/strings/strpbrk.c.s
 
 CMakeFiles/libC.dir/strings/strpbrk.c.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/libC.dir/strings/strpbrk.c.o.provides.build: CMakeFiles/libC.dir/stri
 
 CMakeFiles/libC.dir/strings/strsep.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strsep.c.o: ../strings/strsep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/libC.dir/strings/strsep.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strsep.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strsep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/libC.dir/strings/strsep.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strsep.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strsep.c
 
 CMakeFiles/libC.dir/strings/strsep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strsep.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strsep.c > CMakeFiles/libC.dir/strings/strsep.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strsep.c > CMakeFiles/libC.dir/strings/strsep.c.i
 
 CMakeFiles/libC.dir/strings/strsep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strsep.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strsep.c -o CMakeFiles/libC.dir/strings/strsep.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strsep.c -o CMakeFiles/libC.dir/strings/strsep.c.s
 
 CMakeFiles/libC.dir/strings/strsep.c.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/libC.dir/strings/strsep.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strstr.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strstr.c.o: ../strings/strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/libC.dir/strings/strstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strstr.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/libC.dir/strings/strstr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strstr.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strstr.c
 
 CMakeFiles/libC.dir/strings/strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strstr.c > CMakeFiles/libC.dir/strings/strstr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strstr.c > CMakeFiles/libC.dir/strings/strstr.c.i
 
 CMakeFiles/libC.dir/strings/strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strstr.c -o CMakeFiles/libC.dir/strings/strstr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strstr.c -o CMakeFiles/libC.dir/strings/strstr.c.s
 
 CMakeFiles/libC.dir/strings/strstr.c.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/libC.dir/strings/strstr.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strtok.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strtok.c.o: ../strings/strtok.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/libC.dir/strings/strtok.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strtok.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strtok.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/libC.dir/strings/strtok.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strtok.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strtok.c
 
 CMakeFiles/libC.dir/strings/strtok.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strtok.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strtok.c > CMakeFiles/libC.dir/strings/strtok.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strtok.c > CMakeFiles/libC.dir/strings/strtok.c.i
 
 CMakeFiles/libC.dir/strings/strtok.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strtok.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strtok.c -o CMakeFiles/libC.dir/strings/strtok.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strtok.c -o CMakeFiles/libC.dir/strings/strtok.c.s
 
 CMakeFiles/libC.dir/strings/strtok.c.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/libC.dir/strings/strtok.c.o.provides.build: CMakeFiles/libC.dir/strin
 
 CMakeFiles/libC.dir/strings/strtok_r.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/strings/strtok_r.c.o: ../strings/strtok_r.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/libC.dir/strings/strtok_r.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strtok_r.c.o   -c /home/tiphaine/CLionProjects/libC/strings/strtok_r.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/libC.dir/strings/strtok_r.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/strings/strtok_r.c.o   -c /home/tiphaine/GitHub/my_libC/strings/strtok_r.c
 
 CMakeFiles/libC.dir/strings/strtok_r.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/strings/strtok_r.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/strings/strtok_r.c > CMakeFiles/libC.dir/strings/strtok_r.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/strings/strtok_r.c > CMakeFiles/libC.dir/strings/strtok_r.c.i
 
 CMakeFiles/libC.dir/strings/strtok_r.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/strings/strtok_r.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/strings/strtok_r.c -o CMakeFiles/libC.dir/strings/strtok_r.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/strings/strtok_r.c -o CMakeFiles/libC.dir/strings/strtok_r.c.s
 
 CMakeFiles/libC.dir/strings/strtok_r.c.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/libC.dir/strings/strtok_r.c.o.provides.build: CMakeFiles/libC.dir/str
 
 CMakeFiles/libC.dir/ctype/isalnum.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/isalnum.c.o: ../ctype/isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/libC.dir/ctype/isalnum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isalnum.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/libC.dir/ctype/isalnum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isalnum.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/isalnum.c
 
 CMakeFiles/libC.dir/ctype/isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/isalnum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/isalnum.c > CMakeFiles/libC.dir/ctype/isalnum.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/isalnum.c > CMakeFiles/libC.dir/ctype/isalnum.c.i
 
 CMakeFiles/libC.dir/ctype/isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/isalnum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/isalnum.c -o CMakeFiles/libC.dir/ctype/isalnum.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/isalnum.c -o CMakeFiles/libC.dir/ctype/isalnum.c.s
 
 CMakeFiles/libC.dir/ctype/isalnum.c.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/libC.dir/ctype/isalnum.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/isalpha.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/isalpha.c.o: ../ctype/isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/libC.dir/ctype/isalpha.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isalpha.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/libC.dir/ctype/isalpha.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isalpha.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/isalpha.c
 
 CMakeFiles/libC.dir/ctype/isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/isalpha.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/isalpha.c > CMakeFiles/libC.dir/ctype/isalpha.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/isalpha.c > CMakeFiles/libC.dir/ctype/isalpha.c.i
 
 CMakeFiles/libC.dir/ctype/isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/isalpha.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/isalpha.c -o CMakeFiles/libC.dir/ctype/isalpha.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/isalpha.c -o CMakeFiles/libC.dir/ctype/isalpha.c.s
 
 CMakeFiles/libC.dir/ctype/isalpha.c.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/libC.dir/ctype/isalpha.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/iscntrl.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/iscntrl.c.o: ../ctype/iscntrl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/libC.dir/ctype/iscntrl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/iscntrl.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/iscntrl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/libC.dir/ctype/iscntrl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/iscntrl.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/iscntrl.c
 
 CMakeFiles/libC.dir/ctype/iscntrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/iscntrl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/iscntrl.c > CMakeFiles/libC.dir/ctype/iscntrl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/iscntrl.c > CMakeFiles/libC.dir/ctype/iscntrl.c.i
 
 CMakeFiles/libC.dir/ctype/iscntrl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/iscntrl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/iscntrl.c -o CMakeFiles/libC.dir/ctype/iscntrl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/iscntrl.c -o CMakeFiles/libC.dir/ctype/iscntrl.c.s
 
 CMakeFiles/libC.dir/ctype/iscntrl.c.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/libC.dir/ctype/iscntrl.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/isdigit.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/isdigit.c.o: ../ctype/isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/libC.dir/ctype/isdigit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isdigit.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/libC.dir/ctype/isdigit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isdigit.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/isdigit.c
 
 CMakeFiles/libC.dir/ctype/isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/isdigit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/isdigit.c > CMakeFiles/libC.dir/ctype/isdigit.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/isdigit.c > CMakeFiles/libC.dir/ctype/isdigit.c.i
 
 CMakeFiles/libC.dir/ctype/isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/isdigit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/isdigit.c -o CMakeFiles/libC.dir/ctype/isdigit.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/isdigit.c -o CMakeFiles/libC.dir/ctype/isdigit.c.s
 
 CMakeFiles/libC.dir/ctype/isdigit.c.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/libC.dir/ctype/isdigit.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/isgraph.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/isgraph.c.o: ../ctype/isgraph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/libC.dir/ctype/isgraph.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isgraph.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/isgraph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/libC.dir/ctype/isgraph.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isgraph.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/isgraph.c
 
 CMakeFiles/libC.dir/ctype/isgraph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/isgraph.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/isgraph.c > CMakeFiles/libC.dir/ctype/isgraph.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/isgraph.c > CMakeFiles/libC.dir/ctype/isgraph.c.i
 
 CMakeFiles/libC.dir/ctype/isgraph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/isgraph.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/isgraph.c -o CMakeFiles/libC.dir/ctype/isgraph.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/isgraph.c -o CMakeFiles/libC.dir/ctype/isgraph.c.s
 
 CMakeFiles/libC.dir/ctype/isgraph.c.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/libC.dir/ctype/isgraph.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/islower.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/islower.c.o: ../ctype/islower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/libC.dir/ctype/islower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/islower.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/islower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/libC.dir/ctype/islower.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/islower.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/islower.c
 
 CMakeFiles/libC.dir/ctype/islower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/islower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/islower.c > CMakeFiles/libC.dir/ctype/islower.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/islower.c > CMakeFiles/libC.dir/ctype/islower.c.i
 
 CMakeFiles/libC.dir/ctype/islower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/islower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/islower.c -o CMakeFiles/libC.dir/ctype/islower.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/islower.c -o CMakeFiles/libC.dir/ctype/islower.c.s
 
 CMakeFiles/libC.dir/ctype/islower.c.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/libC.dir/ctype/islower.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/isprint.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/isprint.c.o: ../ctype/isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/libC.dir/ctype/isprint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isprint.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/libC.dir/ctype/isprint.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isprint.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/isprint.c
 
 CMakeFiles/libC.dir/ctype/isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/isprint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/isprint.c > CMakeFiles/libC.dir/ctype/isprint.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/isprint.c > CMakeFiles/libC.dir/ctype/isprint.c.i
 
 CMakeFiles/libC.dir/ctype/isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/isprint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/isprint.c -o CMakeFiles/libC.dir/ctype/isprint.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/isprint.c -o CMakeFiles/libC.dir/ctype/isprint.c.s
 
 CMakeFiles/libC.dir/ctype/isprint.c.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/libC.dir/ctype/isprint.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/ispunct.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/ispunct.c.o: ../ctype/ispunct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/libC.dir/ctype/ispunct.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/ispunct.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/ispunct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/libC.dir/ctype/ispunct.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/ispunct.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/ispunct.c
 
 CMakeFiles/libC.dir/ctype/ispunct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/ispunct.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/ispunct.c > CMakeFiles/libC.dir/ctype/ispunct.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/ispunct.c > CMakeFiles/libC.dir/ctype/ispunct.c.i
 
 CMakeFiles/libC.dir/ctype/ispunct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/ispunct.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/ispunct.c -o CMakeFiles/libC.dir/ctype/ispunct.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/ispunct.c -o CMakeFiles/libC.dir/ctype/ispunct.c.s
 
 CMakeFiles/libC.dir/ctype/ispunct.c.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/libC.dir/ctype/ispunct.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/isspace.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/isspace.c.o: ../ctype/isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/libC.dir/ctype/isspace.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isspace.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/libC.dir/ctype/isspace.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isspace.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/isspace.c
 
 CMakeFiles/libC.dir/ctype/isspace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/isspace.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/isspace.c > CMakeFiles/libC.dir/ctype/isspace.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/isspace.c > CMakeFiles/libC.dir/ctype/isspace.c.i
 
 CMakeFiles/libC.dir/ctype/isspace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/isspace.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/isspace.c -o CMakeFiles/libC.dir/ctype/isspace.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/isspace.c -o CMakeFiles/libC.dir/ctype/isspace.c.s
 
 CMakeFiles/libC.dir/ctype/isspace.c.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/libC.dir/ctype/isspace.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/isupper.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/isupper.c.o: ../ctype/isupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/libC.dir/ctype/isupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isupper.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/isupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/libC.dir/ctype/isupper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isupper.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/isupper.c
 
 CMakeFiles/libC.dir/ctype/isupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/isupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/isupper.c > CMakeFiles/libC.dir/ctype/isupper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/isupper.c > CMakeFiles/libC.dir/ctype/isupper.c.i
 
 CMakeFiles/libC.dir/ctype/isupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/isupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/isupper.c -o CMakeFiles/libC.dir/ctype/isupper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/isupper.c -o CMakeFiles/libC.dir/ctype/isupper.c.s
 
 CMakeFiles/libC.dir/ctype/isupper.c.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/libC.dir/ctype/isupper.c.o.provides.build: CMakeFiles/libC.dir/ctype/
 
 CMakeFiles/libC.dir/ctype/isxdigit.c.o: CMakeFiles/libC.dir/flags.make
 CMakeFiles/libC.dir/ctype/isxdigit.c.o: ../ctype/isxdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/libC.dir/ctype/isxdigit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isxdigit.c.o   -c /home/tiphaine/CLionProjects/libC/ctype/isxdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/libC.dir/ctype/isxdigit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libC.dir/ctype/isxdigit.c.o   -c /home/tiphaine/GitHub/my_libC/ctype/isxdigit.c
 
 CMakeFiles/libC.dir/ctype/isxdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libC.dir/ctype/isxdigit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/CLionProjects/libC/ctype/isxdigit.c > CMakeFiles/libC.dir/ctype/isxdigit.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiphaine/GitHub/my_libC/ctype/isxdigit.c > CMakeFiles/libC.dir/ctype/isxdigit.c.i
 
 CMakeFiles/libC.dir/ctype/isxdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libC.dir/ctype/isxdigit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/CLionProjects/libC/ctype/isxdigit.c -o CMakeFiles/libC.dir/ctype/isxdigit.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiphaine/GitHub/my_libC/ctype/isxdigit.c -o CMakeFiles/libC.dir/ctype/isxdigit.c.s
 
 CMakeFiles/libC.dir/ctype/isxdigit.c.o.requires:
 
@@ -1038,52 +1038,52 @@ libC_OBJECTS = \
 # External object files for target libC
 libC_EXTERNAL_OBJECTS =
 
-liblibC.so: CMakeFiles/libC.dir/ctype/tolower.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/toupper.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strcasecmp.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strncasecmp.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/index.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/rindex.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strcpy.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strncpy.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strcat.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strncat.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strlen.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strchr.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strrchr.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strchrnul.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strcmp.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strncmp.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/stpcpy.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/stpncpy.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strcspn.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strspn.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strdup.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strfry.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/swap.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strpbrk.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strsep.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strstr.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strtok.c.o
-liblibC.so: CMakeFiles/libC.dir/strings/strtok_r.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/isalnum.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/isalpha.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/iscntrl.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/isdigit.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/isgraph.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/islower.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/isprint.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/ispunct.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/isspace.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/isupper.c.o
-liblibC.so: CMakeFiles/libC.dir/ctype/isxdigit.c.o
-liblibC.so: CMakeFiles/libC.dir/build.make
-liblibC.so: CMakeFiles/libC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C shared library liblibC.so"
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/tolower.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/toupper.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strcasecmp.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strncasecmp.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/index.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/rindex.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strcpy.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strncpy.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strcat.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strncat.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strlen.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strchr.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strrchr.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strchrnul.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strcmp.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strncmp.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/stpcpy.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/stpncpy.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strcspn.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strspn.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strdup.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strfry.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/swap.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strpbrk.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strsep.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strstr.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strtok.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/strings/strtok_r.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/isalnum.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/isalpha.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/iscntrl.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/isdigit.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/isgraph.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/islower.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/isprint.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/ispunct.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/isspace.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/isupper.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/ctype/isxdigit.c.o
+../lib/liblibC.so: CMakeFiles/libC.dir/build.make
+../lib/liblibC.so: CMakeFiles/libC.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C shared library ../lib/liblibC.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/libC.dir/build: liblibC.so
+CMakeFiles/libC.dir/build: ../lib/liblibC.so
 
 .PHONY : CMakeFiles/libC.dir/build
 
@@ -1134,6 +1134,6 @@ CMakeFiles/libC.dir/clean:
 .PHONY : CMakeFiles/libC.dir/clean
 
 CMakeFiles/libC.dir/depend:
-	cd /home/tiphaine/CLionProjects/libC/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tiphaine/CLionProjects/libC /home/tiphaine/CLionProjects/libC /home/tiphaine/CLionProjects/libC/cmake-build-debug /home/tiphaine/CLionProjects/libC/cmake-build-debug /home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/libC.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tiphaine/GitHub/my_libC/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tiphaine/GitHub/my_libC /home/tiphaine/GitHub/my_libC /home/tiphaine/GitHub/my_libC/cmake-build-debug /home/tiphaine/GitHub/my_libC/cmake-build-debug /home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/libC.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/libC.dir/depend
 
