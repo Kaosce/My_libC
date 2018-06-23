@@ -6,7 +6,7 @@
 */
 
 #include "../ctype/ctype.h"
-#include "strings.h"
+#include "string.h"
 
 int strncasecmp(const char *s1, const char *s2, size_t n)
 {

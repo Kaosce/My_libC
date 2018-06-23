@@ -7,7 +7,7 @@
 
 #include <stdlib.h>
 
-#include "strings.h"
+#include "string.h"
 
 char *strfry(char *string)
 {

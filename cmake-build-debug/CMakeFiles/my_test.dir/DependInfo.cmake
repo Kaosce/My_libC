@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/libC.dir/DependInfo.cmake"
+  "/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles/C.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

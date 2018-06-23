@@ -5,7 +5,7 @@
 ** strstr.c
 */
 
-#include "strings.h"
+#include "string.h"
 
 static int compare_substr(const char *s1, const char *s2, size_t n)
 {

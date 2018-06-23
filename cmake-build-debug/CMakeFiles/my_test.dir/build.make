@@ -90,7 +90,7 @@ my_test_EXTERNAL_OBJECTS =
 
 my_test: CMakeFiles/my_test.dir/test.c.o
 my_test: CMakeFiles/my_test.dir/build.make
-my_test: ../lib/liblibC.so
+my_test: ../lib/libC.so
 my_test: CMakeFiles/my_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tiphaine/GitHub/my_libC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable my_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_test.dir/link.txt --verbose=$(VERBOSE)

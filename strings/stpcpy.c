@@ -5,7 +5,7 @@
 ** stpcpy.c
 */
 
-#include "strings.h"
+#include "string.h"
 
 char *stpcpy(char *restrict dest, const char *src)
 {

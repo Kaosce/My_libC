@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/tiphaine/GitHub/my_libC/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/25/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/25/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,17 +124,17 @@ my_test/fast:
 .PHONY : my_test/fast
 
 #=============================================================================
-# Target rules for targets named libC
+# Target rules for targets named C
 
 # Build rule for target.
-libC: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libC
-.PHONY : libC
+C : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 C
+.PHONY : C
 
 # fast build rule for target.
-libC/fast:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/build
-.PHONY : libC/fast
+C/fast:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
+.PHONY : C/fast
 
 ctype/isalnum.o: ctype/isalnum.c.o
 
@@ -142,7 +142,7 @@ ctype/isalnum.o: ctype/isalnum.c.o
 
 # target to build an object file
 ctype/isalnum.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isalnum.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isalnum.c.o
 .PHONY : ctype/isalnum.c.o
 
 ctype/isalnum.i: ctype/isalnum.c.i
@@ -151,7 +151,7 @@ ctype/isalnum.i: ctype/isalnum.c.i
 
 # target to preprocess a source file
 ctype/isalnum.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isalnum.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isalnum.c.i
 .PHONY : ctype/isalnum.c.i
 
 ctype/isalnum.s: ctype/isalnum.c.s
@@ -160,7 +160,7 @@ ctype/isalnum.s: ctype/isalnum.c.s
 
 # target to generate assembly for a file
 ctype/isalnum.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isalnum.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isalnum.c.s
 .PHONY : ctype/isalnum.c.s
 
 ctype/isalpha.o: ctype/isalpha.c.o
@@ -169,7 +169,7 @@ ctype/isalpha.o: ctype/isalpha.c.o
 
 # target to build an object file
 ctype/isalpha.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isalpha.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isalpha.c.o
 .PHONY : ctype/isalpha.c.o
 
 ctype/isalpha.i: ctype/isalpha.c.i
@@ -178,7 +178,7 @@ ctype/isalpha.i: ctype/isalpha.c.i
 
 # target to preprocess a source file
 ctype/isalpha.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isalpha.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isalpha.c.i
 .PHONY : ctype/isalpha.c.i
 
 ctype/isalpha.s: ctype/isalpha.c.s
@@ -187,7 +187,7 @@ ctype/isalpha.s: ctype/isalpha.c.s
 
 # target to generate assembly for a file
 ctype/isalpha.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isalpha.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isalpha.c.s
 .PHONY : ctype/isalpha.c.s
 
 ctype/iscntrl.o: ctype/iscntrl.c.o
@@ -196,7 +196,7 @@ ctype/iscntrl.o: ctype/iscntrl.c.o
 
 # target to build an object file
 ctype/iscntrl.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/iscntrl.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/iscntrl.c.o
 .PHONY : ctype/iscntrl.c.o
 
 ctype/iscntrl.i: ctype/iscntrl.c.i
@@ -205,7 +205,7 @@ ctype/iscntrl.i: ctype/iscntrl.c.i
 
 # target to preprocess a source file
 ctype/iscntrl.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/iscntrl.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/iscntrl.c.i
 .PHONY : ctype/iscntrl.c.i
 
 ctype/iscntrl.s: ctype/iscntrl.c.s
@@ -214,7 +214,7 @@ ctype/iscntrl.s: ctype/iscntrl.c.s
 
 # target to generate assembly for a file
 ctype/iscntrl.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/iscntrl.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/iscntrl.c.s
 .PHONY : ctype/iscntrl.c.s
 
 ctype/isdigit.o: ctype/isdigit.c.o
@@ -223,7 +223,7 @@ ctype/isdigit.o: ctype/isdigit.c.o
 
 # target to build an object file
 ctype/isdigit.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isdigit.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isdigit.c.o
 .PHONY : ctype/isdigit.c.o
 
 ctype/isdigit.i: ctype/isdigit.c.i
@@ -232,7 +232,7 @@ ctype/isdigit.i: ctype/isdigit.c.i
 
 # target to preprocess a source file
 ctype/isdigit.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isdigit.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isdigit.c.i
 .PHONY : ctype/isdigit.c.i
 
 ctype/isdigit.s: ctype/isdigit.c.s
@@ -241,7 +241,7 @@ ctype/isdigit.s: ctype/isdigit.c.s
 
 # target to generate assembly for a file
 ctype/isdigit.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isdigit.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isdigit.c.s
 .PHONY : ctype/isdigit.c.s
 
 ctype/isgraph.o: ctype/isgraph.c.o
@@ -250,7 +250,7 @@ ctype/isgraph.o: ctype/isgraph.c.o
 
 # target to build an object file
 ctype/isgraph.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isgraph.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isgraph.c.o
 .PHONY : ctype/isgraph.c.o
 
 ctype/isgraph.i: ctype/isgraph.c.i
@@ -259,7 +259,7 @@ ctype/isgraph.i: ctype/isgraph.c.i
 
 # target to preprocess a source file
 ctype/isgraph.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isgraph.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isgraph.c.i
 .PHONY : ctype/isgraph.c.i
 
 ctype/isgraph.s: ctype/isgraph.c.s
@@ -268,7 +268,7 @@ ctype/isgraph.s: ctype/isgraph.c.s
 
 # target to generate assembly for a file
 ctype/isgraph.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isgraph.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isgraph.c.s
 .PHONY : ctype/isgraph.c.s
 
 ctype/islower.o: ctype/islower.c.o
@@ -277,7 +277,7 @@ ctype/islower.o: ctype/islower.c.o
 
 # target to build an object file
 ctype/islower.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/islower.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/islower.c.o
 .PHONY : ctype/islower.c.o
 
 ctype/islower.i: ctype/islower.c.i
@@ -286,7 +286,7 @@ ctype/islower.i: ctype/islower.c.i
 
 # target to preprocess a source file
 ctype/islower.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/islower.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/islower.c.i
 .PHONY : ctype/islower.c.i
 
 ctype/islower.s: ctype/islower.c.s
@@ -295,7 +295,7 @@ ctype/islower.s: ctype/islower.c.s
 
 # target to generate assembly for a file
 ctype/islower.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/islower.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/islower.c.s
 .PHONY : ctype/islower.c.s
 
 ctype/isprint.o: ctype/isprint.c.o
@@ -304,7 +304,7 @@ ctype/isprint.o: ctype/isprint.c.o
 
 # target to build an object file
 ctype/isprint.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isprint.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isprint.c.o
 .PHONY : ctype/isprint.c.o
 
 ctype/isprint.i: ctype/isprint.c.i
@@ -313,7 +313,7 @@ ctype/isprint.i: ctype/isprint.c.i
 
 # target to preprocess a source file
 ctype/isprint.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isprint.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isprint.c.i
 .PHONY : ctype/isprint.c.i
 
 ctype/isprint.s: ctype/isprint.c.s
@@ -322,7 +322,7 @@ ctype/isprint.s: ctype/isprint.c.s
 
 # target to generate assembly for a file
 ctype/isprint.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isprint.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isprint.c.s
 .PHONY : ctype/isprint.c.s
 
 ctype/ispunct.o: ctype/ispunct.c.o
@@ -331,7 +331,7 @@ ctype/ispunct.o: ctype/ispunct.c.o
 
 # target to build an object file
 ctype/ispunct.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/ispunct.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/ispunct.c.o
 .PHONY : ctype/ispunct.c.o
 
 ctype/ispunct.i: ctype/ispunct.c.i
@@ -340,7 +340,7 @@ ctype/ispunct.i: ctype/ispunct.c.i
 
 # target to preprocess a source file
 ctype/ispunct.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/ispunct.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/ispunct.c.i
 .PHONY : ctype/ispunct.c.i
 
 ctype/ispunct.s: ctype/ispunct.c.s
@@ -349,7 +349,7 @@ ctype/ispunct.s: ctype/ispunct.c.s
 
 # target to generate assembly for a file
 ctype/ispunct.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/ispunct.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/ispunct.c.s
 .PHONY : ctype/ispunct.c.s
 
 ctype/isspace.o: ctype/isspace.c.o
@@ -358,7 +358,7 @@ ctype/isspace.o: ctype/isspace.c.o
 
 # target to build an object file
 ctype/isspace.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isspace.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isspace.c.o
 .PHONY : ctype/isspace.c.o
 
 ctype/isspace.i: ctype/isspace.c.i
@@ -367,7 +367,7 @@ ctype/isspace.i: ctype/isspace.c.i
 
 # target to preprocess a source file
 ctype/isspace.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isspace.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isspace.c.i
 .PHONY : ctype/isspace.c.i
 
 ctype/isspace.s: ctype/isspace.c.s
@@ -376,7 +376,7 @@ ctype/isspace.s: ctype/isspace.c.s
 
 # target to generate assembly for a file
 ctype/isspace.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isspace.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isspace.c.s
 .PHONY : ctype/isspace.c.s
 
 ctype/isupper.o: ctype/isupper.c.o
@@ -385,7 +385,7 @@ ctype/isupper.o: ctype/isupper.c.o
 
 # target to build an object file
 ctype/isupper.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isupper.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isupper.c.o
 .PHONY : ctype/isupper.c.o
 
 ctype/isupper.i: ctype/isupper.c.i
@@ -394,7 +394,7 @@ ctype/isupper.i: ctype/isupper.c.i
 
 # target to preprocess a source file
 ctype/isupper.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isupper.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isupper.c.i
 .PHONY : ctype/isupper.c.i
 
 ctype/isupper.s: ctype/isupper.c.s
@@ -403,7 +403,7 @@ ctype/isupper.s: ctype/isupper.c.s
 
 # target to generate assembly for a file
 ctype/isupper.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isupper.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isupper.c.s
 .PHONY : ctype/isupper.c.s
 
 ctype/isxdigit.o: ctype/isxdigit.c.o
@@ -412,7 +412,7 @@ ctype/isxdigit.o: ctype/isxdigit.c.o
 
 # target to build an object file
 ctype/isxdigit.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isxdigit.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isxdigit.c.o
 .PHONY : ctype/isxdigit.c.o
 
 ctype/isxdigit.i: ctype/isxdigit.c.i
@@ -421,7 +421,7 @@ ctype/isxdigit.i: ctype/isxdigit.c.i
 
 # target to preprocess a source file
 ctype/isxdigit.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isxdigit.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isxdigit.c.i
 .PHONY : ctype/isxdigit.c.i
 
 ctype/isxdigit.s: ctype/isxdigit.c.s
@@ -430,7 +430,7 @@ ctype/isxdigit.s: ctype/isxdigit.c.s
 
 # target to generate assembly for a file
 ctype/isxdigit.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/isxdigit.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/isxdigit.c.s
 .PHONY : ctype/isxdigit.c.s
 
 ctype/tolower.o: ctype/tolower.c.o
@@ -439,7 +439,7 @@ ctype/tolower.o: ctype/tolower.c.o
 
 # target to build an object file
 ctype/tolower.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/tolower.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/tolower.c.o
 .PHONY : ctype/tolower.c.o
 
 ctype/tolower.i: ctype/tolower.c.i
@@ -448,7 +448,7 @@ ctype/tolower.i: ctype/tolower.c.i
 
 # target to preprocess a source file
 ctype/tolower.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/tolower.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/tolower.c.i
 .PHONY : ctype/tolower.c.i
 
 ctype/tolower.s: ctype/tolower.c.s
@@ -457,7 +457,7 @@ ctype/tolower.s: ctype/tolower.c.s
 
 # target to generate assembly for a file
 ctype/tolower.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/tolower.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/tolower.c.s
 .PHONY : ctype/tolower.c.s
 
 ctype/toupper.o: ctype/toupper.c.o
@@ -466,7 +466,7 @@ ctype/toupper.o: ctype/toupper.c.o
 
 # target to build an object file
 ctype/toupper.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/toupper.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/toupper.c.o
 .PHONY : ctype/toupper.c.o
 
 ctype/toupper.i: ctype/toupper.c.i
@@ -475,7 +475,7 @@ ctype/toupper.i: ctype/toupper.c.i
 
 # target to preprocess a source file
 ctype/toupper.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/toupper.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/toupper.c.i
 .PHONY : ctype/toupper.c.i
 
 ctype/toupper.s: ctype/toupper.c.s
@@ -484,7 +484,7 @@ ctype/toupper.s: ctype/toupper.c.s
 
 # target to generate assembly for a file
 ctype/toupper.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/ctype/toupper.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/toupper.c.s
 .PHONY : ctype/toupper.c.s
 
 strings/index.o: strings/index.c.o
@@ -493,7 +493,7 @@ strings/index.o: strings/index.c.o
 
 # target to build an object file
 strings/index.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/index.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/index.c.o
 .PHONY : strings/index.c.o
 
 strings/index.i: strings/index.c.i
@@ -502,7 +502,7 @@ strings/index.i: strings/index.c.i
 
 # target to preprocess a source file
 strings/index.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/index.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/index.c.i
 .PHONY : strings/index.c.i
 
 strings/index.s: strings/index.c.s
@@ -511,7 +511,7 @@ strings/index.s: strings/index.c.s
 
 # target to generate assembly for a file
 strings/index.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/index.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/index.c.s
 .PHONY : strings/index.c.s
 
 strings/rindex.o: strings/rindex.c.o
@@ -520,7 +520,7 @@ strings/rindex.o: strings/rindex.c.o
 
 # target to build an object file
 strings/rindex.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/rindex.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/rindex.c.o
 .PHONY : strings/rindex.c.o
 
 strings/rindex.i: strings/rindex.c.i
@@ -529,7 +529,7 @@ strings/rindex.i: strings/rindex.c.i
 
 # target to preprocess a source file
 strings/rindex.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/rindex.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/rindex.c.i
 .PHONY : strings/rindex.c.i
 
 strings/rindex.s: strings/rindex.c.s
@@ -538,7 +538,7 @@ strings/rindex.s: strings/rindex.c.s
 
 # target to generate assembly for a file
 strings/rindex.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/rindex.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/rindex.c.s
 .PHONY : strings/rindex.c.s
 
 strings/stpcpy.o: strings/stpcpy.c.o
@@ -547,7 +547,7 @@ strings/stpcpy.o: strings/stpcpy.c.o
 
 # target to build an object file
 strings/stpcpy.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/stpcpy.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpcpy.c.o
 .PHONY : strings/stpcpy.c.o
 
 strings/stpcpy.i: strings/stpcpy.c.i
@@ -556,7 +556,7 @@ strings/stpcpy.i: strings/stpcpy.c.i
 
 # target to preprocess a source file
 strings/stpcpy.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/stpcpy.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpcpy.c.i
 .PHONY : strings/stpcpy.c.i
 
 strings/stpcpy.s: strings/stpcpy.c.s
@@ -565,7 +565,7 @@ strings/stpcpy.s: strings/stpcpy.c.s
 
 # target to generate assembly for a file
 strings/stpcpy.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/stpcpy.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpcpy.c.s
 .PHONY : strings/stpcpy.c.s
 
 strings/stpncpy.o: strings/stpncpy.c.o
@@ -574,7 +574,7 @@ strings/stpncpy.o: strings/stpncpy.c.o
 
 # target to build an object file
 strings/stpncpy.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/stpncpy.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpncpy.c.o
 .PHONY : strings/stpncpy.c.o
 
 strings/stpncpy.i: strings/stpncpy.c.i
@@ -583,7 +583,7 @@ strings/stpncpy.i: strings/stpncpy.c.i
 
 # target to preprocess a source file
 strings/stpncpy.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/stpncpy.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpncpy.c.i
 .PHONY : strings/stpncpy.c.i
 
 strings/stpncpy.s: strings/stpncpy.c.s
@@ -592,7 +592,7 @@ strings/stpncpy.s: strings/stpncpy.c.s
 
 # target to generate assembly for a file
 strings/stpncpy.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/stpncpy.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpncpy.c.s
 .PHONY : strings/stpncpy.c.s
 
 strings/strcasecmp.o: strings/strcasecmp.c.o
@@ -601,7 +601,7 @@ strings/strcasecmp.o: strings/strcasecmp.c.o
 
 # target to build an object file
 strings/strcasecmp.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcasecmp.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcasecmp.c.o
 .PHONY : strings/strcasecmp.c.o
 
 strings/strcasecmp.i: strings/strcasecmp.c.i
@@ -610,7 +610,7 @@ strings/strcasecmp.i: strings/strcasecmp.c.i
 
 # target to preprocess a source file
 strings/strcasecmp.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcasecmp.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcasecmp.c.i
 .PHONY : strings/strcasecmp.c.i
 
 strings/strcasecmp.s: strings/strcasecmp.c.s
@@ -619,7 +619,7 @@ strings/strcasecmp.s: strings/strcasecmp.c.s
 
 # target to generate assembly for a file
 strings/strcasecmp.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcasecmp.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcasecmp.c.s
 .PHONY : strings/strcasecmp.c.s
 
 strings/strcat.o: strings/strcat.c.o
@@ -628,7 +628,7 @@ strings/strcat.o: strings/strcat.c.o
 
 # target to build an object file
 strings/strcat.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcat.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcat.c.o
 .PHONY : strings/strcat.c.o
 
 strings/strcat.i: strings/strcat.c.i
@@ -637,7 +637,7 @@ strings/strcat.i: strings/strcat.c.i
 
 # target to preprocess a source file
 strings/strcat.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcat.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcat.c.i
 .PHONY : strings/strcat.c.i
 
 strings/strcat.s: strings/strcat.c.s
@@ -646,7 +646,7 @@ strings/strcat.s: strings/strcat.c.s
 
 # target to generate assembly for a file
 strings/strcat.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcat.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcat.c.s
 .PHONY : strings/strcat.c.s
 
 strings/strchr.o: strings/strchr.c.o
@@ -655,7 +655,7 @@ strings/strchr.o: strings/strchr.c.o
 
 # target to build an object file
 strings/strchr.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strchr.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchr.c.o
 .PHONY : strings/strchr.c.o
 
 strings/strchr.i: strings/strchr.c.i
@@ -664,7 +664,7 @@ strings/strchr.i: strings/strchr.c.i
 
 # target to preprocess a source file
 strings/strchr.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strchr.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchr.c.i
 .PHONY : strings/strchr.c.i
 
 strings/strchr.s: strings/strchr.c.s
@@ -673,7 +673,7 @@ strings/strchr.s: strings/strchr.c.s
 
 # target to generate assembly for a file
 strings/strchr.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strchr.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchr.c.s
 .PHONY : strings/strchr.c.s
 
 strings/strchrnul.o: strings/strchrnul.c.o
@@ -682,7 +682,7 @@ strings/strchrnul.o: strings/strchrnul.c.o
 
 # target to build an object file
 strings/strchrnul.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strchrnul.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchrnul.c.o
 .PHONY : strings/strchrnul.c.o
 
 strings/strchrnul.i: strings/strchrnul.c.i
@@ -691,7 +691,7 @@ strings/strchrnul.i: strings/strchrnul.c.i
 
 # target to preprocess a source file
 strings/strchrnul.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strchrnul.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchrnul.c.i
 .PHONY : strings/strchrnul.c.i
 
 strings/strchrnul.s: strings/strchrnul.c.s
@@ -700,7 +700,7 @@ strings/strchrnul.s: strings/strchrnul.c.s
 
 # target to generate assembly for a file
 strings/strchrnul.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strchrnul.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchrnul.c.s
 .PHONY : strings/strchrnul.c.s
 
 strings/strcmp.o: strings/strcmp.c.o
@@ -709,7 +709,7 @@ strings/strcmp.o: strings/strcmp.c.o
 
 # target to build an object file
 strings/strcmp.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcmp.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcmp.c.o
 .PHONY : strings/strcmp.c.o
 
 strings/strcmp.i: strings/strcmp.c.i
@@ -718,7 +718,7 @@ strings/strcmp.i: strings/strcmp.c.i
 
 # target to preprocess a source file
 strings/strcmp.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcmp.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcmp.c.i
 .PHONY : strings/strcmp.c.i
 
 strings/strcmp.s: strings/strcmp.c.s
@@ -727,7 +727,7 @@ strings/strcmp.s: strings/strcmp.c.s
 
 # target to generate assembly for a file
 strings/strcmp.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcmp.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcmp.c.s
 .PHONY : strings/strcmp.c.s
 
 strings/strcpy.o: strings/strcpy.c.o
@@ -736,7 +736,7 @@ strings/strcpy.o: strings/strcpy.c.o
 
 # target to build an object file
 strings/strcpy.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcpy.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcpy.c.o
 .PHONY : strings/strcpy.c.o
 
 strings/strcpy.i: strings/strcpy.c.i
@@ -745,7 +745,7 @@ strings/strcpy.i: strings/strcpy.c.i
 
 # target to preprocess a source file
 strings/strcpy.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcpy.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcpy.c.i
 .PHONY : strings/strcpy.c.i
 
 strings/strcpy.s: strings/strcpy.c.s
@@ -754,7 +754,7 @@ strings/strcpy.s: strings/strcpy.c.s
 
 # target to generate assembly for a file
 strings/strcpy.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcpy.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcpy.c.s
 .PHONY : strings/strcpy.c.s
 
 strings/strcspn.o: strings/strcspn.c.o
@@ -763,7 +763,7 @@ strings/strcspn.o: strings/strcspn.c.o
 
 # target to build an object file
 strings/strcspn.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcspn.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcspn.c.o
 .PHONY : strings/strcspn.c.o
 
 strings/strcspn.i: strings/strcspn.c.i
@@ -772,7 +772,7 @@ strings/strcspn.i: strings/strcspn.c.i
 
 # target to preprocess a source file
 strings/strcspn.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcspn.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcspn.c.i
 .PHONY : strings/strcspn.c.i
 
 strings/strcspn.s: strings/strcspn.c.s
@@ -781,7 +781,7 @@ strings/strcspn.s: strings/strcspn.c.s
 
 # target to generate assembly for a file
 strings/strcspn.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strcspn.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcspn.c.s
 .PHONY : strings/strcspn.c.s
 
 strings/strdup.o: strings/strdup.c.o
@@ -790,7 +790,7 @@ strings/strdup.o: strings/strdup.c.o
 
 # target to build an object file
 strings/strdup.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strdup.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strdup.c.o
 .PHONY : strings/strdup.c.o
 
 strings/strdup.i: strings/strdup.c.i
@@ -799,7 +799,7 @@ strings/strdup.i: strings/strdup.c.i
 
 # target to preprocess a source file
 strings/strdup.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strdup.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strdup.c.i
 .PHONY : strings/strdup.c.i
 
 strings/strdup.s: strings/strdup.c.s
@@ -808,7 +808,7 @@ strings/strdup.s: strings/strdup.c.s
 
 # target to generate assembly for a file
 strings/strdup.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strdup.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strdup.c.s
 .PHONY : strings/strdup.c.s
 
 strings/strfry.o: strings/strfry.c.o
@@ -817,7 +817,7 @@ strings/strfry.o: strings/strfry.c.o
 
 # target to build an object file
 strings/strfry.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strfry.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strfry.c.o
 .PHONY : strings/strfry.c.o
 
 strings/strfry.i: strings/strfry.c.i
@@ -826,7 +826,7 @@ strings/strfry.i: strings/strfry.c.i
 
 # target to preprocess a source file
 strings/strfry.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strfry.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strfry.c.i
 .PHONY : strings/strfry.c.i
 
 strings/strfry.s: strings/strfry.c.s
@@ -835,7 +835,7 @@ strings/strfry.s: strings/strfry.c.s
 
 # target to generate assembly for a file
 strings/strfry.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strfry.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strfry.c.s
 .PHONY : strings/strfry.c.s
 
 strings/strlen.o: strings/strlen.c.o
@@ -844,7 +844,7 @@ strings/strlen.o: strings/strlen.c.o
 
 # target to build an object file
 strings/strlen.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strlen.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strlen.c.o
 .PHONY : strings/strlen.c.o
 
 strings/strlen.i: strings/strlen.c.i
@@ -853,7 +853,7 @@ strings/strlen.i: strings/strlen.c.i
 
 # target to preprocess a source file
 strings/strlen.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strlen.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strlen.c.i
 .PHONY : strings/strlen.c.i
 
 strings/strlen.s: strings/strlen.c.s
@@ -862,7 +862,7 @@ strings/strlen.s: strings/strlen.c.s
 
 # target to generate assembly for a file
 strings/strlen.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strlen.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strlen.c.s
 .PHONY : strings/strlen.c.s
 
 strings/strncasecmp.o: strings/strncasecmp.c.o
@@ -871,7 +871,7 @@ strings/strncasecmp.o: strings/strncasecmp.c.o
 
 # target to build an object file
 strings/strncasecmp.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncasecmp.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncasecmp.c.o
 .PHONY : strings/strncasecmp.c.o
 
 strings/strncasecmp.i: strings/strncasecmp.c.i
@@ -880,7 +880,7 @@ strings/strncasecmp.i: strings/strncasecmp.c.i
 
 # target to preprocess a source file
 strings/strncasecmp.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncasecmp.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncasecmp.c.i
 .PHONY : strings/strncasecmp.c.i
 
 strings/strncasecmp.s: strings/strncasecmp.c.s
@@ -889,7 +889,7 @@ strings/strncasecmp.s: strings/strncasecmp.c.s
 
 # target to generate assembly for a file
 strings/strncasecmp.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncasecmp.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncasecmp.c.s
 .PHONY : strings/strncasecmp.c.s
 
 strings/strncat.o: strings/strncat.c.o
@@ -898,7 +898,7 @@ strings/strncat.o: strings/strncat.c.o
 
 # target to build an object file
 strings/strncat.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncat.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncat.c.o
 .PHONY : strings/strncat.c.o
 
 strings/strncat.i: strings/strncat.c.i
@@ -907,7 +907,7 @@ strings/strncat.i: strings/strncat.c.i
 
 # target to preprocess a source file
 strings/strncat.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncat.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncat.c.i
 .PHONY : strings/strncat.c.i
 
 strings/strncat.s: strings/strncat.c.s
@@ -916,7 +916,7 @@ strings/strncat.s: strings/strncat.c.s
 
 # target to generate assembly for a file
 strings/strncat.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncat.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncat.c.s
 .PHONY : strings/strncat.c.s
 
 strings/strncmp.o: strings/strncmp.c.o
@@ -925,7 +925,7 @@ strings/strncmp.o: strings/strncmp.c.o
 
 # target to build an object file
 strings/strncmp.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncmp.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncmp.c.o
 .PHONY : strings/strncmp.c.o
 
 strings/strncmp.i: strings/strncmp.c.i
@@ -934,7 +934,7 @@ strings/strncmp.i: strings/strncmp.c.i
 
 # target to preprocess a source file
 strings/strncmp.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncmp.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncmp.c.i
 .PHONY : strings/strncmp.c.i
 
 strings/strncmp.s: strings/strncmp.c.s
@@ -943,7 +943,7 @@ strings/strncmp.s: strings/strncmp.c.s
 
 # target to generate assembly for a file
 strings/strncmp.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncmp.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncmp.c.s
 .PHONY : strings/strncmp.c.s
 
 strings/strncpy.o: strings/strncpy.c.o
@@ -952,7 +952,7 @@ strings/strncpy.o: strings/strncpy.c.o
 
 # target to build an object file
 strings/strncpy.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncpy.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncpy.c.o
 .PHONY : strings/strncpy.c.o
 
 strings/strncpy.i: strings/strncpy.c.i
@@ -961,7 +961,7 @@ strings/strncpy.i: strings/strncpy.c.i
 
 # target to preprocess a source file
 strings/strncpy.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncpy.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncpy.c.i
 .PHONY : strings/strncpy.c.i
 
 strings/strncpy.s: strings/strncpy.c.s
@@ -970,7 +970,7 @@ strings/strncpy.s: strings/strncpy.c.s
 
 # target to generate assembly for a file
 strings/strncpy.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strncpy.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncpy.c.s
 .PHONY : strings/strncpy.c.s
 
 strings/strpbrk.o: strings/strpbrk.c.o
@@ -979,7 +979,7 @@ strings/strpbrk.o: strings/strpbrk.c.o
 
 # target to build an object file
 strings/strpbrk.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strpbrk.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strpbrk.c.o
 .PHONY : strings/strpbrk.c.o
 
 strings/strpbrk.i: strings/strpbrk.c.i
@@ -988,7 +988,7 @@ strings/strpbrk.i: strings/strpbrk.c.i
 
 # target to preprocess a source file
 strings/strpbrk.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strpbrk.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strpbrk.c.i
 .PHONY : strings/strpbrk.c.i
 
 strings/strpbrk.s: strings/strpbrk.c.s
@@ -997,7 +997,7 @@ strings/strpbrk.s: strings/strpbrk.c.s
 
 # target to generate assembly for a file
 strings/strpbrk.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strpbrk.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strpbrk.c.s
 .PHONY : strings/strpbrk.c.s
 
 strings/strrchr.o: strings/strrchr.c.o
@@ -1006,7 +1006,7 @@ strings/strrchr.o: strings/strrchr.c.o
 
 # target to build an object file
 strings/strrchr.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strrchr.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strrchr.c.o
 .PHONY : strings/strrchr.c.o
 
 strings/strrchr.i: strings/strrchr.c.i
@@ -1015,7 +1015,7 @@ strings/strrchr.i: strings/strrchr.c.i
 
 # target to preprocess a source file
 strings/strrchr.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strrchr.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strrchr.c.i
 .PHONY : strings/strrchr.c.i
 
 strings/strrchr.s: strings/strrchr.c.s
@@ -1024,7 +1024,7 @@ strings/strrchr.s: strings/strrchr.c.s
 
 # target to generate assembly for a file
 strings/strrchr.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strrchr.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strrchr.c.s
 .PHONY : strings/strrchr.c.s
 
 strings/strsep.o: strings/strsep.c.o
@@ -1033,7 +1033,7 @@ strings/strsep.o: strings/strsep.c.o
 
 # target to build an object file
 strings/strsep.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strsep.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strsep.c.o
 .PHONY : strings/strsep.c.o
 
 strings/strsep.i: strings/strsep.c.i
@@ -1042,7 +1042,7 @@ strings/strsep.i: strings/strsep.c.i
 
 # target to preprocess a source file
 strings/strsep.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strsep.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strsep.c.i
 .PHONY : strings/strsep.c.i
 
 strings/strsep.s: strings/strsep.c.s
@@ -1051,7 +1051,7 @@ strings/strsep.s: strings/strsep.c.s
 
 # target to generate assembly for a file
 strings/strsep.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strsep.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strsep.c.s
 .PHONY : strings/strsep.c.s
 
 strings/strspn.o: strings/strspn.c.o
@@ -1060,7 +1060,7 @@ strings/strspn.o: strings/strspn.c.o
 
 # target to build an object file
 strings/strspn.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strspn.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strspn.c.o
 .PHONY : strings/strspn.c.o
 
 strings/strspn.i: strings/strspn.c.i
@@ -1069,7 +1069,7 @@ strings/strspn.i: strings/strspn.c.i
 
 # target to preprocess a source file
 strings/strspn.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strspn.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strspn.c.i
 .PHONY : strings/strspn.c.i
 
 strings/strspn.s: strings/strspn.c.s
@@ -1078,7 +1078,7 @@ strings/strspn.s: strings/strspn.c.s
 
 # target to generate assembly for a file
 strings/strspn.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strspn.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strspn.c.s
 .PHONY : strings/strspn.c.s
 
 strings/strstr.o: strings/strstr.c.o
@@ -1087,7 +1087,7 @@ strings/strstr.o: strings/strstr.c.o
 
 # target to build an object file
 strings/strstr.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strstr.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strstr.c.o
 .PHONY : strings/strstr.c.o
 
 strings/strstr.i: strings/strstr.c.i
@@ -1096,7 +1096,7 @@ strings/strstr.i: strings/strstr.c.i
 
 # target to preprocess a source file
 strings/strstr.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strstr.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strstr.c.i
 .PHONY : strings/strstr.c.i
 
 strings/strstr.s: strings/strstr.c.s
@@ -1105,7 +1105,7 @@ strings/strstr.s: strings/strstr.c.s
 
 # target to generate assembly for a file
 strings/strstr.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strstr.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strstr.c.s
 .PHONY : strings/strstr.c.s
 
 strings/strtok.o: strings/strtok.c.o
@@ -1114,7 +1114,7 @@ strings/strtok.o: strings/strtok.c.o
 
 # target to build an object file
 strings/strtok.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strtok.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok.c.o
 .PHONY : strings/strtok.c.o
 
 strings/strtok.i: strings/strtok.c.i
@@ -1123,7 +1123,7 @@ strings/strtok.i: strings/strtok.c.i
 
 # target to preprocess a source file
 strings/strtok.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strtok.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok.c.i
 .PHONY : strings/strtok.c.i
 
 strings/strtok.s: strings/strtok.c.s
@@ -1132,7 +1132,7 @@ strings/strtok.s: strings/strtok.c.s
 
 # target to generate assembly for a file
 strings/strtok.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strtok.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok.c.s
 .PHONY : strings/strtok.c.s
 
 strings/strtok_r.o: strings/strtok_r.c.o
@@ -1141,7 +1141,7 @@ strings/strtok_r.o: strings/strtok_r.c.o
 
 # target to build an object file
 strings/strtok_r.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strtok_r.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok_r.c.o
 .PHONY : strings/strtok_r.c.o
 
 strings/strtok_r.i: strings/strtok_r.c.i
@@ -1150,7 +1150,7 @@ strings/strtok_r.i: strings/strtok_r.c.i
 
 # target to preprocess a source file
 strings/strtok_r.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strtok_r.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok_r.c.i
 .PHONY : strings/strtok_r.c.i
 
 strings/strtok_r.s: strings/strtok_r.c.s
@@ -1159,7 +1159,7 @@ strings/strtok_r.s: strings/strtok_r.c.s
 
 # target to generate assembly for a file
 strings/strtok_r.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/strtok_r.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok_r.c.s
 .PHONY : strings/strtok_r.c.s
 
 strings/swap.o: strings/swap.c.o
@@ -1168,7 +1168,7 @@ strings/swap.o: strings/swap.c.o
 
 # target to build an object file
 strings/swap.c.o:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/swap.c.o
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/swap.c.o
 .PHONY : strings/swap.c.o
 
 strings/swap.i: strings/swap.c.i
@@ -1177,7 +1177,7 @@ strings/swap.i: strings/swap.c.i
 
 # target to preprocess a source file
 strings/swap.c.i:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/swap.c.i
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/swap.c.i
 .PHONY : strings/swap.c.i
 
 strings/swap.s: strings/swap.c.s
@@ -1186,7 +1186,7 @@ strings/swap.s: strings/swap.c.s
 
 # target to generate assembly for a file
 strings/swap.c.s:
-	$(MAKE) -f CMakeFiles/libC.dir/build.make CMakeFiles/libC.dir/strings/swap.c.s
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/swap.c.s
 .PHONY : strings/swap.c.s
 
 test.o: test.c.o
@@ -1222,10 +1222,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... my_test"
-	@echo "... rebuild_cache"
-	@echo "... libC"
+	@echo "... C"
 	@echo "... ctype/isalnum.o"
 	@echo "... ctype/isalnum.i"
 	@echo "... ctype/isalnum.s"

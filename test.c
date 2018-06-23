@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 #include "ctype/ctype.h"
-#include "strings/strings.h"
+#include "strings/string.h"
 
 int main(void)
 {

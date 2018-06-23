@@ -5,7 +5,7 @@
 ** rindex.c
 */
 
-#include "strings.h"
+#include "string.h"
 
 char *rindex(const char *s, int c)
 {

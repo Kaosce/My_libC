@@ -5,7 +5,7 @@
 ** strrchr.c
 */
 
-#include "strings.h"
+#include "string.h"
 
 char *strrchr(const char *s, int c)
 {

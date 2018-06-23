@@ -5,7 +5,7 @@
 ** strchrnul.c
 */
 
-#include "strings.h"
+#include "string.h"
 
 char *strchrnul(const char *s, int c)
 {
