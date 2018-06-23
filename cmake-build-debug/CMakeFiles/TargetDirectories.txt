@@ -1,0 +1,4 @@
+/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/my_test.dir
+/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tiphaine/CLionProjects/libC/cmake-build-debug/CMakeFiles/libC.dir

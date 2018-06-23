@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tiphaine/CLionProjects/libC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tiphaine/CLionProjects/libC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test">
+				<Option output="/home/tiphaine/CLionProjects/libC/cmake-build-debug/my_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiphaine/CLionProjects/libC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test/fast">
+				<Option output="/home/tiphaine/CLionProjects/libC/cmake-build-debug/my_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiphaine/CLionProjects/libC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tiphaine/CLionProjects/libC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libC">
+				<Option output="/home/tiphaine/CLionProjects/libC/cmake-build-debug/liblibC.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiphaine/CLionProjects/libC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 libC"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libC/fast">
+				<Option output="/home/tiphaine/CLionProjects/libC/cmake-build-debug/liblibC.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiphaine/CLionProjects/libC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 libC/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/CLionProjects/libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/ctype.h">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/isalnum.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/isalpha.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/iscntrl.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/isdigit.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/isgraph.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/islower.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/isprint.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/ispunct.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/isspace.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/isupper.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/isxdigit.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/tolower.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/ctype/toupper.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/index.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/rindex.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/stpcpy.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/stpncpy.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strcasecmp.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strcat.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strchr.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strchrnul.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strcmp.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strcpy.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strcspn.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strdup.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strfry.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strings.h">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strlen.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strncasecmp.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strncat.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strncmp.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strncpy.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strpbrk.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strrchr.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strsep.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strspn.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strstr.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strtok.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/strtok_r.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/strings/swap.c">
+			<Option target="libC"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/test.c">
+			<Option target="my_test"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/CLionProjects/libC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
