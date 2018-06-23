@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tiphaine/GitHub/my_libC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tiphaine/GitHub/my_libC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tiphaine/GitHub/my_libC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test">
+				<Option output="/home/tiphaine/GitHub/my_libC/cmake-build-debug/my_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiphaine/GitHub/my_libC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test/fast">
+				<Option output="/home/tiphaine/GitHub/my_libC/cmake-build-debug/my_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiphaine/GitHub/my_libC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C">
+				<Option output="/home/tiphaine/GitHub/my_libC/lib/libC.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiphaine/GitHub/my_libC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 C"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C/fast">
+				<Option output="/home/tiphaine/GitHub/my_libC/lib/libC.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiphaine/GitHub/my_libC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 C/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiphaine/GitHub/my_libC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/ctype.h">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/isalnum.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/isalpha.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/iscntrl.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/isdigit.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/isgraph.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/islower.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/isprint.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/ispunct.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/isspace.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/isupper.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/isxdigit.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/tolower.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/ctype/toupper.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/index.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/rindex.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/stpcpy.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/stpncpy.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strcasecmp.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strcat.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strchr.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strchrnul.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strcmp.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strcpy.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strcspn.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strdup.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strfry.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/string.h">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strlen.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strncasecmp.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strncat.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strncmp.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strncpy.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strpbrk.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strrchr.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strsep.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strspn.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strstr.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strtok.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/strtok_r.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/string/swap.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/test.c">
+			<Option target="my_test"/>
+		</Unit>
+		<Unit filename="/home/tiphaine/GitHub/my_libC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

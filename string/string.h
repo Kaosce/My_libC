@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2017
 ** libC
 ** File description:
-** strings.h
+** string.h
 */
 
 #ifndef LIBC_STRINGS_H

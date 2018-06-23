@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tiphaine/GitHub/my_libC/ctype/ctype.h
+
+/home/tiphaine/GitHub/my_libC/string/string.h
+
+/home/tiphaine/GitHub/my_libC/test.c
+stdio.h
+-
+ctype/ctype.h
+/home/tiphaine/GitHub/my_libC/ctype/ctype.h
+string/string.h
+/home/tiphaine/GitHub/my_libC/string/string.h
+

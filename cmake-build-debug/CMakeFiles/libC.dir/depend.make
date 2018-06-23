@@ -40,82 +40,29 @@ CMakeFiles/libC.dir/ctype/tolower.c.o: ../ctype/tolower.c
 CMakeFiles/libC.dir/ctype/toupper.c.o: ../ctype/ctype.h
 CMakeFiles/libC.dir/ctype/toupper.c.o: ../ctype/toupper.c
 
-CMakeFiles/libC.dir/strings/index.c.o: ../strings/index.c
-CMakeFiles/libC.dir/strings/index.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/rindex.c.o: ../strings/rindex.c
-CMakeFiles/libC.dir/strings/rindex.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/stpcpy.c.o: ../strings/stpcpy.c
-CMakeFiles/libC.dir/strings/stpcpy.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/stpncpy.c.o: ../strings/stpncpy.c
-CMakeFiles/libC.dir/strings/stpncpy.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strcasecmp.c.o: ../ctype/ctype.h
-CMakeFiles/libC.dir/strings/strcasecmp.c.o: ../strings/strcasecmp.c
-CMakeFiles/libC.dir/strings/strcasecmp.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strcat.c.o: ../strings/strcat.c
-CMakeFiles/libC.dir/strings/strcat.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strchr.c.o: ../strings/strchr.c
-CMakeFiles/libC.dir/strings/strchr.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strchrnul.c.o: ../strings/strchrnul.c
-CMakeFiles/libC.dir/strings/strchrnul.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strcmp.c.o: ../strings/strcmp.c
-CMakeFiles/libC.dir/strings/strcmp.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strcpy.c.o: ../strings/strcpy.c
-CMakeFiles/libC.dir/strings/strcpy.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strcspn.c.o: ../strings/strcspn.c
-CMakeFiles/libC.dir/strings/strcspn.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strdup.c.o: ../strings/strdup.c
-CMakeFiles/libC.dir/strings/strdup.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strfry.c.o: ../strings/strfry.c
-CMakeFiles/libC.dir/strings/strfry.c.o: ../strings/strings.h
 
-CMakeFiles/libC.dir/strings/strlen.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strlen.c.o: ../strings/strlen.c
 
-CMakeFiles/libC.dir/strings/strncasecmp.c.o: ../ctype/ctype.h
-CMakeFiles/libC.dir/strings/strncasecmp.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strncasecmp.c.o: ../strings/strncasecmp.c
 
-CMakeFiles/libC.dir/strings/strncat.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strncat.c.o: ../strings/strncat.c
 
-CMakeFiles/libC.dir/strings/strncmp.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strncmp.c.o: ../strings/strncmp.c
 
-CMakeFiles/libC.dir/strings/strncpy.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strncpy.c.o: ../strings/strncpy.c
 
-CMakeFiles/libC.dir/strings/strpbrk.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strpbrk.c.o: ../strings/strpbrk.c
 
-CMakeFiles/libC.dir/strings/strrchr.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strrchr.c.o: ../strings/strrchr.c
 
-CMakeFiles/libC.dir/strings/strsep.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strsep.c.o: ../strings/strsep.c
 
-CMakeFiles/libC.dir/strings/strspn.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strspn.c.o: ../strings/strspn.c
 
-CMakeFiles/libC.dir/strings/strstr.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strstr.c.o: ../strings/strstr.c
 
-CMakeFiles/libC.dir/strings/strtok.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strtok.c.o: ../strings/strtok.c
 
-CMakeFiles/libC.dir/strings/strtok_r.c.o: ../strings/strings.h
-CMakeFiles/libC.dir/strings/strtok_r.c.o: ../strings/strtok_r.c
 
-CMakeFiles/libC.dir/strings/swap.c.o: ../strings/swap.c
 

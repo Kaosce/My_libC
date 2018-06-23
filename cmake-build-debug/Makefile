@@ -487,707 +487,707 @@ ctype/toupper.c.s:
 	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/ctype/toupper.c.s
 .PHONY : ctype/toupper.c.s
 
-strings/index.o: strings/index.c.o
+string/index.o: string/index.c.o
 
-.PHONY : strings/index.o
-
-# target to build an object file
-strings/index.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/index.c.o
-.PHONY : strings/index.c.o
-
-strings/index.i: strings/index.c.i
-
-.PHONY : strings/index.i
-
-# target to preprocess a source file
-strings/index.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/index.c.i
-.PHONY : strings/index.c.i
-
-strings/index.s: strings/index.c.s
-
-.PHONY : strings/index.s
-
-# target to generate assembly for a file
-strings/index.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/index.c.s
-.PHONY : strings/index.c.s
-
-strings/rindex.o: strings/rindex.c.o
-
-.PHONY : strings/rindex.o
+.PHONY : string/index.o
 
 # target to build an object file
-strings/rindex.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/rindex.c.o
-.PHONY : strings/rindex.c.o
+string/index.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/index.c.o
+.PHONY : string/index.c.o
 
-strings/rindex.i: strings/rindex.c.i
+string/index.i: string/index.c.i
 
-.PHONY : strings/rindex.i
+.PHONY : string/index.i
 
 # target to preprocess a source file
-strings/rindex.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/rindex.c.i
-.PHONY : strings/rindex.c.i
+string/index.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/index.c.i
+.PHONY : string/index.c.i
 
-strings/rindex.s: strings/rindex.c.s
+string/index.s: string/index.c.s
 
-.PHONY : strings/rindex.s
+.PHONY : string/index.s
 
 # target to generate assembly for a file
-strings/rindex.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/rindex.c.s
-.PHONY : strings/rindex.c.s
+string/index.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/index.c.s
+.PHONY : string/index.c.s
 
-strings/stpcpy.o: strings/stpcpy.c.o
+string/rindex.o: string/rindex.c.o
 
-.PHONY : strings/stpcpy.o
+.PHONY : string/rindex.o
 
 # target to build an object file
-strings/stpcpy.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpcpy.c.o
-.PHONY : strings/stpcpy.c.o
+string/rindex.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/rindex.c.o
+.PHONY : string/rindex.c.o
 
-strings/stpcpy.i: strings/stpcpy.c.i
+string/rindex.i: string/rindex.c.i
 
-.PHONY : strings/stpcpy.i
+.PHONY : string/rindex.i
 
 # target to preprocess a source file
-strings/stpcpy.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpcpy.c.i
-.PHONY : strings/stpcpy.c.i
+string/rindex.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/rindex.c.i
+.PHONY : string/rindex.c.i
 
-strings/stpcpy.s: strings/stpcpy.c.s
+string/rindex.s: string/rindex.c.s
 
-.PHONY : strings/stpcpy.s
+.PHONY : string/rindex.s
 
 # target to generate assembly for a file
-strings/stpcpy.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpcpy.c.s
-.PHONY : strings/stpcpy.c.s
+string/rindex.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/rindex.c.s
+.PHONY : string/rindex.c.s
 
-strings/stpncpy.o: strings/stpncpy.c.o
+string/stpcpy.o: string/stpcpy.c.o
 
-.PHONY : strings/stpncpy.o
+.PHONY : string/stpcpy.o
 
 # target to build an object file
-strings/stpncpy.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpncpy.c.o
-.PHONY : strings/stpncpy.c.o
+string/stpcpy.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/stpcpy.c.o
+.PHONY : string/stpcpy.c.o
 
-strings/stpncpy.i: strings/stpncpy.c.i
+string/stpcpy.i: string/stpcpy.c.i
 
-.PHONY : strings/stpncpy.i
+.PHONY : string/stpcpy.i
 
 # target to preprocess a source file
-strings/stpncpy.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpncpy.c.i
-.PHONY : strings/stpncpy.c.i
+string/stpcpy.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/stpcpy.c.i
+.PHONY : string/stpcpy.c.i
 
-strings/stpncpy.s: strings/stpncpy.c.s
+string/stpcpy.s: string/stpcpy.c.s
 
-.PHONY : strings/stpncpy.s
+.PHONY : string/stpcpy.s
 
 # target to generate assembly for a file
-strings/stpncpy.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/stpncpy.c.s
-.PHONY : strings/stpncpy.c.s
+string/stpcpy.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/stpcpy.c.s
+.PHONY : string/stpcpy.c.s
 
-strings/strcasecmp.o: strings/strcasecmp.c.o
+string/stpncpy.o: string/stpncpy.c.o
 
-.PHONY : strings/strcasecmp.o
+.PHONY : string/stpncpy.o
 
 # target to build an object file
-strings/strcasecmp.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcasecmp.c.o
-.PHONY : strings/strcasecmp.c.o
+string/stpncpy.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/stpncpy.c.o
+.PHONY : string/stpncpy.c.o
 
-strings/strcasecmp.i: strings/strcasecmp.c.i
+string/stpncpy.i: string/stpncpy.c.i
 
-.PHONY : strings/strcasecmp.i
+.PHONY : string/stpncpy.i
 
 # target to preprocess a source file
-strings/strcasecmp.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcasecmp.c.i
-.PHONY : strings/strcasecmp.c.i
+string/stpncpy.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/stpncpy.c.i
+.PHONY : string/stpncpy.c.i
 
-strings/strcasecmp.s: strings/strcasecmp.c.s
+string/stpncpy.s: string/stpncpy.c.s
 
-.PHONY : strings/strcasecmp.s
+.PHONY : string/stpncpy.s
 
 # target to generate assembly for a file
-strings/strcasecmp.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcasecmp.c.s
-.PHONY : strings/strcasecmp.c.s
+string/stpncpy.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/stpncpy.c.s
+.PHONY : string/stpncpy.c.s
 
-strings/strcat.o: strings/strcat.c.o
+string/strcasecmp.o: string/strcasecmp.c.o
 
-.PHONY : strings/strcat.o
+.PHONY : string/strcasecmp.o
 
 # target to build an object file
-strings/strcat.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcat.c.o
-.PHONY : strings/strcat.c.o
+string/strcasecmp.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcasecmp.c.o
+.PHONY : string/strcasecmp.c.o
 
-strings/strcat.i: strings/strcat.c.i
+string/strcasecmp.i: string/strcasecmp.c.i
 
-.PHONY : strings/strcat.i
+.PHONY : string/strcasecmp.i
 
 # target to preprocess a source file
-strings/strcat.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcat.c.i
-.PHONY : strings/strcat.c.i
+string/strcasecmp.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcasecmp.c.i
+.PHONY : string/strcasecmp.c.i
 
-strings/strcat.s: strings/strcat.c.s
+string/strcasecmp.s: string/strcasecmp.c.s
 
-.PHONY : strings/strcat.s
+.PHONY : string/strcasecmp.s
 
 # target to generate assembly for a file
-strings/strcat.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcat.c.s
-.PHONY : strings/strcat.c.s
+string/strcasecmp.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcasecmp.c.s
+.PHONY : string/strcasecmp.c.s
 
-strings/strchr.o: strings/strchr.c.o
+string/strcat.o: string/strcat.c.o
 
-.PHONY : strings/strchr.o
+.PHONY : string/strcat.o
 
 # target to build an object file
-strings/strchr.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchr.c.o
-.PHONY : strings/strchr.c.o
+string/strcat.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcat.c.o
+.PHONY : string/strcat.c.o
 
-strings/strchr.i: strings/strchr.c.i
+string/strcat.i: string/strcat.c.i
 
-.PHONY : strings/strchr.i
+.PHONY : string/strcat.i
 
 # target to preprocess a source file
-strings/strchr.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchr.c.i
-.PHONY : strings/strchr.c.i
+string/strcat.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcat.c.i
+.PHONY : string/strcat.c.i
 
-strings/strchr.s: strings/strchr.c.s
+string/strcat.s: string/strcat.c.s
 
-.PHONY : strings/strchr.s
+.PHONY : string/strcat.s
 
 # target to generate assembly for a file
-strings/strchr.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchr.c.s
-.PHONY : strings/strchr.c.s
+string/strcat.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcat.c.s
+.PHONY : string/strcat.c.s
 
-strings/strchrnul.o: strings/strchrnul.c.o
+string/strchr.o: string/strchr.c.o
 
-.PHONY : strings/strchrnul.o
+.PHONY : string/strchr.o
 
 # target to build an object file
-strings/strchrnul.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchrnul.c.o
-.PHONY : strings/strchrnul.c.o
+string/strchr.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strchr.c.o
+.PHONY : string/strchr.c.o
 
-strings/strchrnul.i: strings/strchrnul.c.i
+string/strchr.i: string/strchr.c.i
 
-.PHONY : strings/strchrnul.i
+.PHONY : string/strchr.i
 
 # target to preprocess a source file
-strings/strchrnul.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchrnul.c.i
-.PHONY : strings/strchrnul.c.i
+string/strchr.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strchr.c.i
+.PHONY : string/strchr.c.i
 
-strings/strchrnul.s: strings/strchrnul.c.s
+string/strchr.s: string/strchr.c.s
 
-.PHONY : strings/strchrnul.s
+.PHONY : string/strchr.s
 
 # target to generate assembly for a file
-strings/strchrnul.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strchrnul.c.s
-.PHONY : strings/strchrnul.c.s
+string/strchr.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strchr.c.s
+.PHONY : string/strchr.c.s
 
-strings/strcmp.o: strings/strcmp.c.o
+string/strchrnul.o: string/strchrnul.c.o
 
-.PHONY : strings/strcmp.o
+.PHONY : string/strchrnul.o
 
 # target to build an object file
-strings/strcmp.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcmp.c.o
-.PHONY : strings/strcmp.c.o
+string/strchrnul.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strchrnul.c.o
+.PHONY : string/strchrnul.c.o
 
-strings/strcmp.i: strings/strcmp.c.i
+string/strchrnul.i: string/strchrnul.c.i
 
-.PHONY : strings/strcmp.i
+.PHONY : string/strchrnul.i
 
 # target to preprocess a source file
-strings/strcmp.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcmp.c.i
-.PHONY : strings/strcmp.c.i
+string/strchrnul.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strchrnul.c.i
+.PHONY : string/strchrnul.c.i
 
-strings/strcmp.s: strings/strcmp.c.s
+string/strchrnul.s: string/strchrnul.c.s
 
-.PHONY : strings/strcmp.s
+.PHONY : string/strchrnul.s
 
 # target to generate assembly for a file
-strings/strcmp.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcmp.c.s
-.PHONY : strings/strcmp.c.s
+string/strchrnul.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strchrnul.c.s
+.PHONY : string/strchrnul.c.s
 
-strings/strcpy.o: strings/strcpy.c.o
+string/strcmp.o: string/strcmp.c.o
 
-.PHONY : strings/strcpy.o
+.PHONY : string/strcmp.o
 
 # target to build an object file
-strings/strcpy.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcpy.c.o
-.PHONY : strings/strcpy.c.o
+string/strcmp.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcmp.c.o
+.PHONY : string/strcmp.c.o
 
-strings/strcpy.i: strings/strcpy.c.i
+string/strcmp.i: string/strcmp.c.i
 
-.PHONY : strings/strcpy.i
+.PHONY : string/strcmp.i
 
 # target to preprocess a source file
-strings/strcpy.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcpy.c.i
-.PHONY : strings/strcpy.c.i
+string/strcmp.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcmp.c.i
+.PHONY : string/strcmp.c.i
 
-strings/strcpy.s: strings/strcpy.c.s
+string/strcmp.s: string/strcmp.c.s
 
-.PHONY : strings/strcpy.s
+.PHONY : string/strcmp.s
 
 # target to generate assembly for a file
-strings/strcpy.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcpy.c.s
-.PHONY : strings/strcpy.c.s
+string/strcmp.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcmp.c.s
+.PHONY : string/strcmp.c.s
 
-strings/strcspn.o: strings/strcspn.c.o
+string/strcpy.o: string/strcpy.c.o
 
-.PHONY : strings/strcspn.o
+.PHONY : string/strcpy.o
 
 # target to build an object file
-strings/strcspn.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcspn.c.o
-.PHONY : strings/strcspn.c.o
+string/strcpy.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcpy.c.o
+.PHONY : string/strcpy.c.o
 
-strings/strcspn.i: strings/strcspn.c.i
+string/strcpy.i: string/strcpy.c.i
 
-.PHONY : strings/strcspn.i
+.PHONY : string/strcpy.i
 
 # target to preprocess a source file
-strings/strcspn.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcspn.c.i
-.PHONY : strings/strcspn.c.i
+string/strcpy.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcpy.c.i
+.PHONY : string/strcpy.c.i
 
-strings/strcspn.s: strings/strcspn.c.s
+string/strcpy.s: string/strcpy.c.s
 
-.PHONY : strings/strcspn.s
+.PHONY : string/strcpy.s
 
 # target to generate assembly for a file
-strings/strcspn.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strcspn.c.s
-.PHONY : strings/strcspn.c.s
+string/strcpy.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcpy.c.s
+.PHONY : string/strcpy.c.s
 
-strings/strdup.o: strings/strdup.c.o
+string/strcspn.o: string/strcspn.c.o
 
-.PHONY : strings/strdup.o
+.PHONY : string/strcspn.o
 
 # target to build an object file
-strings/strdup.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strdup.c.o
-.PHONY : strings/strdup.c.o
+string/strcspn.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcspn.c.o
+.PHONY : string/strcspn.c.o
 
-strings/strdup.i: strings/strdup.c.i
+string/strcspn.i: string/strcspn.c.i
 
-.PHONY : strings/strdup.i
+.PHONY : string/strcspn.i
 
 # target to preprocess a source file
-strings/strdup.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strdup.c.i
-.PHONY : strings/strdup.c.i
+string/strcspn.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcspn.c.i
+.PHONY : string/strcspn.c.i
 
-strings/strdup.s: strings/strdup.c.s
+string/strcspn.s: string/strcspn.c.s
 
-.PHONY : strings/strdup.s
+.PHONY : string/strcspn.s
 
 # target to generate assembly for a file
-strings/strdup.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strdup.c.s
-.PHONY : strings/strdup.c.s
+string/strcspn.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strcspn.c.s
+.PHONY : string/strcspn.c.s
 
-strings/strfry.o: strings/strfry.c.o
+string/strdup.o: string/strdup.c.o
 
-.PHONY : strings/strfry.o
+.PHONY : string/strdup.o
 
 # target to build an object file
-strings/strfry.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strfry.c.o
-.PHONY : strings/strfry.c.o
+string/strdup.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strdup.c.o
+.PHONY : string/strdup.c.o
 
-strings/strfry.i: strings/strfry.c.i
+string/strdup.i: string/strdup.c.i
 
-.PHONY : strings/strfry.i
+.PHONY : string/strdup.i
 
 # target to preprocess a source file
-strings/strfry.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strfry.c.i
-.PHONY : strings/strfry.c.i
+string/strdup.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strdup.c.i
+.PHONY : string/strdup.c.i
 
-strings/strfry.s: strings/strfry.c.s
+string/strdup.s: string/strdup.c.s
 
-.PHONY : strings/strfry.s
+.PHONY : string/strdup.s
 
 # target to generate assembly for a file
-strings/strfry.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strfry.c.s
-.PHONY : strings/strfry.c.s
+string/strdup.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strdup.c.s
+.PHONY : string/strdup.c.s
 
-strings/strlen.o: strings/strlen.c.o
+string/strfry.o: string/strfry.c.o
 
-.PHONY : strings/strlen.o
+.PHONY : string/strfry.o
 
 # target to build an object file
-strings/strlen.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strlen.c.o
-.PHONY : strings/strlen.c.o
+string/strfry.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strfry.c.o
+.PHONY : string/strfry.c.o
 
-strings/strlen.i: strings/strlen.c.i
+string/strfry.i: string/strfry.c.i
 
-.PHONY : strings/strlen.i
+.PHONY : string/strfry.i
 
 # target to preprocess a source file
-strings/strlen.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strlen.c.i
-.PHONY : strings/strlen.c.i
+string/strfry.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strfry.c.i
+.PHONY : string/strfry.c.i
 
-strings/strlen.s: strings/strlen.c.s
+string/strfry.s: string/strfry.c.s
 
-.PHONY : strings/strlen.s
+.PHONY : string/strfry.s
 
 # target to generate assembly for a file
-strings/strlen.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strlen.c.s
-.PHONY : strings/strlen.c.s
+string/strfry.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strfry.c.s
+.PHONY : string/strfry.c.s
 
-strings/strncasecmp.o: strings/strncasecmp.c.o
+string/strlen.o: string/strlen.c.o
 
-.PHONY : strings/strncasecmp.o
+.PHONY : string/strlen.o
 
 # target to build an object file
-strings/strncasecmp.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncasecmp.c.o
-.PHONY : strings/strncasecmp.c.o
+string/strlen.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strlen.c.o
+.PHONY : string/strlen.c.o
 
-strings/strncasecmp.i: strings/strncasecmp.c.i
+string/strlen.i: string/strlen.c.i
 
-.PHONY : strings/strncasecmp.i
+.PHONY : string/strlen.i
 
 # target to preprocess a source file
-strings/strncasecmp.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncasecmp.c.i
-.PHONY : strings/strncasecmp.c.i
+string/strlen.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strlen.c.i
+.PHONY : string/strlen.c.i
 
-strings/strncasecmp.s: strings/strncasecmp.c.s
+string/strlen.s: string/strlen.c.s
 
-.PHONY : strings/strncasecmp.s
+.PHONY : string/strlen.s
 
 # target to generate assembly for a file
-strings/strncasecmp.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncasecmp.c.s
-.PHONY : strings/strncasecmp.c.s
+string/strlen.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strlen.c.s
+.PHONY : string/strlen.c.s
 
-strings/strncat.o: strings/strncat.c.o
+string/strncasecmp.o: string/strncasecmp.c.o
 
-.PHONY : strings/strncat.o
+.PHONY : string/strncasecmp.o
 
 # target to build an object file
-strings/strncat.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncat.c.o
-.PHONY : strings/strncat.c.o
+string/strncasecmp.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncasecmp.c.o
+.PHONY : string/strncasecmp.c.o
 
-strings/strncat.i: strings/strncat.c.i
+string/strncasecmp.i: string/strncasecmp.c.i
 
-.PHONY : strings/strncat.i
+.PHONY : string/strncasecmp.i
 
 # target to preprocess a source file
-strings/strncat.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncat.c.i
-.PHONY : strings/strncat.c.i
+string/strncasecmp.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncasecmp.c.i
+.PHONY : string/strncasecmp.c.i
 
-strings/strncat.s: strings/strncat.c.s
+string/strncasecmp.s: string/strncasecmp.c.s
 
-.PHONY : strings/strncat.s
+.PHONY : string/strncasecmp.s
 
 # target to generate assembly for a file
-strings/strncat.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncat.c.s
-.PHONY : strings/strncat.c.s
+string/strncasecmp.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncasecmp.c.s
+.PHONY : string/strncasecmp.c.s
 
-strings/strncmp.o: strings/strncmp.c.o
+string/strncat.o: string/strncat.c.o
 
-.PHONY : strings/strncmp.o
+.PHONY : string/strncat.o
 
 # target to build an object file
-strings/strncmp.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncmp.c.o
-.PHONY : strings/strncmp.c.o
+string/strncat.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncat.c.o
+.PHONY : string/strncat.c.o
 
-strings/strncmp.i: strings/strncmp.c.i
+string/strncat.i: string/strncat.c.i
 
-.PHONY : strings/strncmp.i
+.PHONY : string/strncat.i
 
 # target to preprocess a source file
-strings/strncmp.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncmp.c.i
-.PHONY : strings/strncmp.c.i
+string/strncat.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncat.c.i
+.PHONY : string/strncat.c.i
 
-strings/strncmp.s: strings/strncmp.c.s
+string/strncat.s: string/strncat.c.s
 
-.PHONY : strings/strncmp.s
+.PHONY : string/strncat.s
 
 # target to generate assembly for a file
-strings/strncmp.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncmp.c.s
-.PHONY : strings/strncmp.c.s
+string/strncat.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncat.c.s
+.PHONY : string/strncat.c.s
 
-strings/strncpy.o: strings/strncpy.c.o
+string/strncmp.o: string/strncmp.c.o
 
-.PHONY : strings/strncpy.o
+.PHONY : string/strncmp.o
 
 # target to build an object file
-strings/strncpy.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncpy.c.o
-.PHONY : strings/strncpy.c.o
+string/strncmp.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncmp.c.o
+.PHONY : string/strncmp.c.o
 
-strings/strncpy.i: strings/strncpy.c.i
+string/strncmp.i: string/strncmp.c.i
 
-.PHONY : strings/strncpy.i
+.PHONY : string/strncmp.i
 
 # target to preprocess a source file
-strings/strncpy.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncpy.c.i
-.PHONY : strings/strncpy.c.i
+string/strncmp.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncmp.c.i
+.PHONY : string/strncmp.c.i
 
-strings/strncpy.s: strings/strncpy.c.s
+string/strncmp.s: string/strncmp.c.s
 
-.PHONY : strings/strncpy.s
+.PHONY : string/strncmp.s
 
 # target to generate assembly for a file
-strings/strncpy.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strncpy.c.s
-.PHONY : strings/strncpy.c.s
+string/strncmp.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncmp.c.s
+.PHONY : string/strncmp.c.s
 
-strings/strpbrk.o: strings/strpbrk.c.o
+string/strncpy.o: string/strncpy.c.o
 
-.PHONY : strings/strpbrk.o
+.PHONY : string/strncpy.o
 
 # target to build an object file
-strings/strpbrk.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strpbrk.c.o
-.PHONY : strings/strpbrk.c.o
+string/strncpy.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncpy.c.o
+.PHONY : string/strncpy.c.o
 
-strings/strpbrk.i: strings/strpbrk.c.i
+string/strncpy.i: string/strncpy.c.i
 
-.PHONY : strings/strpbrk.i
+.PHONY : string/strncpy.i
 
 # target to preprocess a source file
-strings/strpbrk.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strpbrk.c.i
-.PHONY : strings/strpbrk.c.i
+string/strncpy.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncpy.c.i
+.PHONY : string/strncpy.c.i
 
-strings/strpbrk.s: strings/strpbrk.c.s
+string/strncpy.s: string/strncpy.c.s
 
-.PHONY : strings/strpbrk.s
+.PHONY : string/strncpy.s
 
 # target to generate assembly for a file
-strings/strpbrk.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strpbrk.c.s
-.PHONY : strings/strpbrk.c.s
+string/strncpy.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strncpy.c.s
+.PHONY : string/strncpy.c.s
 
-strings/strrchr.o: strings/strrchr.c.o
+string/strpbrk.o: string/strpbrk.c.o
 
-.PHONY : strings/strrchr.o
+.PHONY : string/strpbrk.o
 
 # target to build an object file
-strings/strrchr.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strrchr.c.o
-.PHONY : strings/strrchr.c.o
+string/strpbrk.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strpbrk.c.o
+.PHONY : string/strpbrk.c.o
 
-strings/strrchr.i: strings/strrchr.c.i
+string/strpbrk.i: string/strpbrk.c.i
 
-.PHONY : strings/strrchr.i
+.PHONY : string/strpbrk.i
 
 # target to preprocess a source file
-strings/strrchr.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strrchr.c.i
-.PHONY : strings/strrchr.c.i
+string/strpbrk.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strpbrk.c.i
+.PHONY : string/strpbrk.c.i
 
-strings/strrchr.s: strings/strrchr.c.s
+string/strpbrk.s: string/strpbrk.c.s
 
-.PHONY : strings/strrchr.s
+.PHONY : string/strpbrk.s
 
 # target to generate assembly for a file
-strings/strrchr.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strrchr.c.s
-.PHONY : strings/strrchr.c.s
+string/strpbrk.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strpbrk.c.s
+.PHONY : string/strpbrk.c.s
 
-strings/strsep.o: strings/strsep.c.o
+string/strrchr.o: string/strrchr.c.o
 
-.PHONY : strings/strsep.o
+.PHONY : string/strrchr.o
 
 # target to build an object file
-strings/strsep.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strsep.c.o
-.PHONY : strings/strsep.c.o
+string/strrchr.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strrchr.c.o
+.PHONY : string/strrchr.c.o
 
-strings/strsep.i: strings/strsep.c.i
+string/strrchr.i: string/strrchr.c.i
 
-.PHONY : strings/strsep.i
+.PHONY : string/strrchr.i
 
 # target to preprocess a source file
-strings/strsep.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strsep.c.i
-.PHONY : strings/strsep.c.i
+string/strrchr.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strrchr.c.i
+.PHONY : string/strrchr.c.i
 
-strings/strsep.s: strings/strsep.c.s
+string/strrchr.s: string/strrchr.c.s
 
-.PHONY : strings/strsep.s
+.PHONY : string/strrchr.s
 
 # target to generate assembly for a file
-strings/strsep.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strsep.c.s
-.PHONY : strings/strsep.c.s
+string/strrchr.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strrchr.c.s
+.PHONY : string/strrchr.c.s
 
-strings/strspn.o: strings/strspn.c.o
+string/strsep.o: string/strsep.c.o
 
-.PHONY : strings/strspn.o
+.PHONY : string/strsep.o
 
 # target to build an object file
-strings/strspn.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strspn.c.o
-.PHONY : strings/strspn.c.o
+string/strsep.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strsep.c.o
+.PHONY : string/strsep.c.o
 
-strings/strspn.i: strings/strspn.c.i
+string/strsep.i: string/strsep.c.i
 
-.PHONY : strings/strspn.i
+.PHONY : string/strsep.i
 
 # target to preprocess a source file
-strings/strspn.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strspn.c.i
-.PHONY : strings/strspn.c.i
+string/strsep.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strsep.c.i
+.PHONY : string/strsep.c.i
 
-strings/strspn.s: strings/strspn.c.s
+string/strsep.s: string/strsep.c.s
 
-.PHONY : strings/strspn.s
+.PHONY : string/strsep.s
 
 # target to generate assembly for a file
-strings/strspn.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strspn.c.s
-.PHONY : strings/strspn.c.s
+string/strsep.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strsep.c.s
+.PHONY : string/strsep.c.s
 
-strings/strstr.o: strings/strstr.c.o
+string/strspn.o: string/strspn.c.o
 
-.PHONY : strings/strstr.o
+.PHONY : string/strspn.o
 
 # target to build an object file
-strings/strstr.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strstr.c.o
-.PHONY : strings/strstr.c.o
+string/strspn.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strspn.c.o
+.PHONY : string/strspn.c.o
 
-strings/strstr.i: strings/strstr.c.i
+string/strspn.i: string/strspn.c.i
 
-.PHONY : strings/strstr.i
+.PHONY : string/strspn.i
 
 # target to preprocess a source file
-strings/strstr.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strstr.c.i
-.PHONY : strings/strstr.c.i
+string/strspn.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strspn.c.i
+.PHONY : string/strspn.c.i
 
-strings/strstr.s: strings/strstr.c.s
+string/strspn.s: string/strspn.c.s
 
-.PHONY : strings/strstr.s
+.PHONY : string/strspn.s
 
 # target to generate assembly for a file
-strings/strstr.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strstr.c.s
-.PHONY : strings/strstr.c.s
+string/strspn.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strspn.c.s
+.PHONY : string/strspn.c.s
 
-strings/strtok.o: strings/strtok.c.o
+string/strstr.o: string/strstr.c.o
 
-.PHONY : strings/strtok.o
+.PHONY : string/strstr.o
 
 # target to build an object file
-strings/strtok.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok.c.o
-.PHONY : strings/strtok.c.o
+string/strstr.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strstr.c.o
+.PHONY : string/strstr.c.o
 
-strings/strtok.i: strings/strtok.c.i
+string/strstr.i: string/strstr.c.i
 
-.PHONY : strings/strtok.i
+.PHONY : string/strstr.i
 
 # target to preprocess a source file
-strings/strtok.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok.c.i
-.PHONY : strings/strtok.c.i
+string/strstr.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strstr.c.i
+.PHONY : string/strstr.c.i
 
-strings/strtok.s: strings/strtok.c.s
+string/strstr.s: string/strstr.c.s
 
-.PHONY : strings/strtok.s
+.PHONY : string/strstr.s
 
 # target to generate assembly for a file
-strings/strtok.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok.c.s
-.PHONY : strings/strtok.c.s
+string/strstr.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strstr.c.s
+.PHONY : string/strstr.c.s
 
-strings/strtok_r.o: strings/strtok_r.c.o
+string/strtok.o: string/strtok.c.o
 
-.PHONY : strings/strtok_r.o
+.PHONY : string/strtok.o
 
 # target to build an object file
-strings/strtok_r.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok_r.c.o
-.PHONY : strings/strtok_r.c.o
+string/strtok.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strtok.c.o
+.PHONY : string/strtok.c.o
 
-strings/strtok_r.i: strings/strtok_r.c.i
+string/strtok.i: string/strtok.c.i
 
-.PHONY : strings/strtok_r.i
+.PHONY : string/strtok.i
 
 # target to preprocess a source file
-strings/strtok_r.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok_r.c.i
-.PHONY : strings/strtok_r.c.i
+string/strtok.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strtok.c.i
+.PHONY : string/strtok.c.i
 
-strings/strtok_r.s: strings/strtok_r.c.s
+string/strtok.s: string/strtok.c.s
 
-.PHONY : strings/strtok_r.s
+.PHONY : string/strtok.s
 
 # target to generate assembly for a file
-strings/strtok_r.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/strtok_r.c.s
-.PHONY : strings/strtok_r.c.s
+string/strtok.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strtok.c.s
+.PHONY : string/strtok.c.s
 
-strings/swap.o: strings/swap.c.o
+string/strtok_r.o: string/strtok_r.c.o
 
-.PHONY : strings/swap.o
+.PHONY : string/strtok_r.o
 
 # target to build an object file
-strings/swap.c.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/swap.c.o
-.PHONY : strings/swap.c.o
+string/strtok_r.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strtok_r.c.o
+.PHONY : string/strtok_r.c.o
 
-strings/swap.i: strings/swap.c.i
+string/strtok_r.i: string/strtok_r.c.i
 
-.PHONY : strings/swap.i
+.PHONY : string/strtok_r.i
 
 # target to preprocess a source file
-strings/swap.c.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/swap.c.i
-.PHONY : strings/swap.c.i
+string/strtok_r.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strtok_r.c.i
+.PHONY : string/strtok_r.c.i
 
-strings/swap.s: strings/swap.c.s
+string/strtok_r.s: string/strtok_r.c.s
 
-.PHONY : strings/swap.s
+.PHONY : string/strtok_r.s
 
 # target to generate assembly for a file
-strings/swap.c.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/strings/swap.c.s
-.PHONY : strings/swap.c.s
+string/strtok_r.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/strtok_r.c.s
+.PHONY : string/strtok_r.c.s
+
+string/swap.o: string/swap.c.o
+
+.PHONY : string/swap.o
+
+# target to build an object file
+string/swap.c.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/swap.c.o
+.PHONY : string/swap.c.o
+
+string/swap.i: string/swap.c.i
+
+.PHONY : string/swap.i
+
+# target to preprocess a source file
+string/swap.c.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/swap.c.i
+.PHONY : string/swap.c.i
+
+string/swap.s: string/swap.c.s
+
+.PHONY : string/swap.s
+
+# target to generate assembly for a file
+string/swap.c.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/string/swap.c.s
+.PHONY : string/swap.c.s
 
 test.o: test.c.o
 
@@ -1265,84 +1265,84 @@ help:
 	@echo "... ctype/toupper.o"
 	@echo "... ctype/toupper.i"
 	@echo "... ctype/toupper.s"
-	@echo "... strings/index.o"
-	@echo "... strings/index.i"
-	@echo "... strings/index.s"
-	@echo "... strings/rindex.o"
-	@echo "... strings/rindex.i"
-	@echo "... strings/rindex.s"
-	@echo "... strings/stpcpy.o"
-	@echo "... strings/stpcpy.i"
-	@echo "... strings/stpcpy.s"
-	@echo "... strings/stpncpy.o"
-	@echo "... strings/stpncpy.i"
-	@echo "... strings/stpncpy.s"
-	@echo "... strings/strcasecmp.o"
-	@echo "... strings/strcasecmp.i"
-	@echo "... strings/strcasecmp.s"
-	@echo "... strings/strcat.o"
-	@echo "... strings/strcat.i"
-	@echo "... strings/strcat.s"
-	@echo "... strings/strchr.o"
-	@echo "... strings/strchr.i"
-	@echo "... strings/strchr.s"
-	@echo "... strings/strchrnul.o"
-	@echo "... strings/strchrnul.i"
-	@echo "... strings/strchrnul.s"
-	@echo "... strings/strcmp.o"
-	@echo "... strings/strcmp.i"
-	@echo "... strings/strcmp.s"
-	@echo "... strings/strcpy.o"
-	@echo "... strings/strcpy.i"
-	@echo "... strings/strcpy.s"
-	@echo "... strings/strcspn.o"
-	@echo "... strings/strcspn.i"
-	@echo "... strings/strcspn.s"
-	@echo "... strings/strdup.o"
-	@echo "... strings/strdup.i"
-	@echo "... strings/strdup.s"
-	@echo "... strings/strfry.o"
-	@echo "... strings/strfry.i"
-	@echo "... strings/strfry.s"
-	@echo "... strings/strlen.o"
-	@echo "... strings/strlen.i"
-	@echo "... strings/strlen.s"
-	@echo "... strings/strncasecmp.o"
-	@echo "... strings/strncasecmp.i"
-	@echo "... strings/strncasecmp.s"
-	@echo "... strings/strncat.o"
-	@echo "... strings/strncat.i"
-	@echo "... strings/strncat.s"
-	@echo "... strings/strncmp.o"
-	@echo "... strings/strncmp.i"
-	@echo "... strings/strncmp.s"
-	@echo "... strings/strncpy.o"
-	@echo "... strings/strncpy.i"
-	@echo "... strings/strncpy.s"
-	@echo "... strings/strpbrk.o"
-	@echo "... strings/strpbrk.i"
-	@echo "... strings/strpbrk.s"
-	@echo "... strings/strrchr.o"
-	@echo "... strings/strrchr.i"
-	@echo "... strings/strrchr.s"
-	@echo "... strings/strsep.o"
-	@echo "... strings/strsep.i"
-	@echo "... strings/strsep.s"
-	@echo "... strings/strspn.o"
-	@echo "... strings/strspn.i"
-	@echo "... strings/strspn.s"
-	@echo "... strings/strstr.o"
-	@echo "... strings/strstr.i"
-	@echo "... strings/strstr.s"
-	@echo "... strings/strtok.o"
-	@echo "... strings/strtok.i"
-	@echo "... strings/strtok.s"
-	@echo "... strings/strtok_r.o"
-	@echo "... strings/strtok_r.i"
-	@echo "... strings/strtok_r.s"
-	@echo "... strings/swap.o"
-	@echo "... strings/swap.i"
-	@echo "... strings/swap.s"
+	@echo "... string/index.o"
+	@echo "... string/index.i"
+	@echo "... string/index.s"
+	@echo "... string/rindex.o"
+	@echo "... string/rindex.i"
+	@echo "... string/rindex.s"
+	@echo "... string/stpcpy.o"
+	@echo "... string/stpcpy.i"
+	@echo "... string/stpcpy.s"
+	@echo "... string/stpncpy.o"
+	@echo "... string/stpncpy.i"
+	@echo "... string/stpncpy.s"
+	@echo "... string/strcasecmp.o"
+	@echo "... string/strcasecmp.i"
+	@echo "... string/strcasecmp.s"
+	@echo "... string/strcat.o"
+	@echo "... string/strcat.i"
+	@echo "... string/strcat.s"
+	@echo "... string/strchr.o"
+	@echo "... string/strchr.i"
+	@echo "... string/strchr.s"
+	@echo "... string/strchrnul.o"
+	@echo "... string/strchrnul.i"
+	@echo "... string/strchrnul.s"
+	@echo "... string/strcmp.o"
+	@echo "... string/strcmp.i"
+	@echo "... string/strcmp.s"
+	@echo "... string/strcpy.o"
+	@echo "... string/strcpy.i"
+	@echo "... string/strcpy.s"
+	@echo "... string/strcspn.o"
+	@echo "... string/strcspn.i"
+	@echo "... string/strcspn.s"
+	@echo "... string/strdup.o"
+	@echo "... string/strdup.i"
+	@echo "... string/strdup.s"
+	@echo "... string/strfry.o"
+	@echo "... string/strfry.i"
+	@echo "... string/strfry.s"
+	@echo "... string/strlen.o"
+	@echo "... string/strlen.i"
+	@echo "... string/strlen.s"
+	@echo "... string/strncasecmp.o"
+	@echo "... string/strncasecmp.i"
+	@echo "... string/strncasecmp.s"
+	@echo "... string/strncat.o"
+	@echo "... string/strncat.i"
+	@echo "... string/strncat.s"
+	@echo "... string/strncmp.o"
+	@echo "... string/strncmp.i"
+	@echo "... string/strncmp.s"
+	@echo "... string/strncpy.o"
+	@echo "... string/strncpy.i"
+	@echo "... string/strncpy.s"
+	@echo "... string/strpbrk.o"
+	@echo "... string/strpbrk.i"
+	@echo "... string/strpbrk.s"
+	@echo "... string/strrchr.o"
+	@echo "... string/strrchr.i"
+	@echo "... string/strrchr.s"
+	@echo "... string/strsep.o"
+	@echo "... string/strsep.i"
+	@echo "... string/strsep.s"
+	@echo "... string/strspn.o"
+	@echo "... string/strspn.i"
+	@echo "... string/strspn.s"
+	@echo "... string/strstr.o"
+	@echo "... string/strstr.i"
+	@echo "... string/strstr.s"
+	@echo "... string/strtok.o"
+	@echo "... string/strtok.i"
+	@echo "... string/strtok.s"
+	@echo "... string/strtok_r.o"
+	@echo "... string/strtok_r.i"
+	@echo "... string/strtok_r.s"
+	@echo "... string/swap.o"
+	@echo "... string/swap.i"
+	@echo "... string/swap.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
